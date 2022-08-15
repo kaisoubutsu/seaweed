@@ -43,8 +43,8 @@ h1 {
   padding: 20px;
   color: #fff;
   border-radius: 10px;
-  background-image: -webkit-linear-gradient(315deg, #ff66cc 0%, #ffccff 29%, #fff0f5 67%, #f0fff0 100%);
-  background-image: linear-gradient(-225deg, #ff66cc 0%, #ffccff 29%, #fff0f5 67%, #f0fff0 100%);
+  background-image: -webkit-linear-gradient(315deg, #800000 0%, #cc0033 29%, #800080 67%, #191970 100%);
+  background-image: linear-gradient(-225deg, #800000 0%, #cc0033 29%, #800080 67%, #191970 100%);
 }
 
 h1 span {
@@ -68,7 +68,7 @@ h2:after {
   height: 6px;
   content: '';
   border-radius: 3px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#fff0f5), to(#ff66cc));
-  background-image: -webkit-linear-gradient(right, #fff0f5 0%, #ff66cc 100%);
-  background-image: linear-gradient(to left, #fff0f5 0%, #ff66cc 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(#800080), to(#cc0033));
+  background-image: -webkit-linear-gradient(right, #800080 0%, #cc0033 100%);
+  background-image: linear-gradient(to left, #800080 0%, #cc0033 100%);
 }
