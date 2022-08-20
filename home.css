@@ -33,14 +33,13 @@ body{
 }
 
 
-
 h1 {
   position: relative;
   padding: 20px;
   color: #fff;
   border-radius: 10px;
-  background-image: -webkit-linear-gradient(315deg, #ff69b4 0%, #ffb6c1 29%, #ffc0cb 67%, #f0f8ff 100%);
-  background-image: linear-gradient(-225deg, #ff69b4 0%, #ffb6c1 29%, #ffc0cb 67%, #f0f8ff 100%);
+  background-image: -webkit-linear-gradient(315deg, #00e3ae 0%, #00fa9a 29%, #98fb98 67%, #ddffbc 100%);
+  background-image: linear-gradient(-225deg, #00e3ae 0%, #00fa9a 29%, #98fb98 67%, #ddffbc 100%);
 }
 
 h1 span {
@@ -65,7 +64,7 @@ h2:after {
   height: 6px;
   content: '';
   border-radius: 3px;
-  background-image: -webkit-gradient(linear, right top, left top,from(#ffc0cb), to(#ff69b4) );
-  background-image: -webkit-linear-gradient(right, #ffc0cb 0%, #ff69b4 100%);
-  background-image: linear-gradient(to left, #ffc0cb 0%, #ff69b4 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(#98fb98), to(#00fa9a));
+  background-image: -webkit-linear-gradient(right, #98fb98 0%, #00fa9a 100%);
+  background-image: linear-gradient(to left, #98fb98 0%, #00fa9a 100%);
 }
