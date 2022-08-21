@@ -43,7 +43,8 @@ p{
 
 body{
 	background-image:url("1月.png");
-	background-size:cover;
+	max-width:100%;
+	height:auto;
 	background-repeat:repeat;
 }
 
