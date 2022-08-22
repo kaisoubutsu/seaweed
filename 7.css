@@ -43,7 +43,7 @@ p{
 
 body{
 	background-image:url("8月.png");
-	max-width:100%;
+	max-width:20em;
 	height:auto;
 	background-repeat:repeat;
 }
