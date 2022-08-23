@@ -3,36 +3,15 @@ h1{
 	color:#ffffff;
 }
 
-h2,h5{
+h2{
 	font-size:25px;
 	color:#000000
 }
 
-h3,h4{
+h3{
 	font-size:20px;
 	color:#000000;
 }
-
-
-h6{
-	font-size:20px;
-	color:#000000;
-}
-
-
-h7,h8,h9,h10,h11{
-	font-size:20px;
-	color:#000000;
-	font-weight:bold;
-}
-
-h12{
-	font-size:25px;
-	color:#000000;
-	font-weight:bold;
-}
-
-
 
 p{
 	font-size:18px;
