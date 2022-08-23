@@ -61,7 +61,7 @@ h2:after {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 6px;
   content: '';
   border-radius: 3px;
   background-image: -webkit-gradient(linear, right top, left top, from(#e0ffff), to(#009efd));
