@@ -23,7 +23,7 @@ p{
 body{
 	background-image:url("6月.png");
 	max-width:100%;
-	background-size:cover;
+	height:auto;
 	background-repeat:repeat;
 }
 
