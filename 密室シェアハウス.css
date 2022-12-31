@@ -76,10 +76,10 @@ h2:after {
     margin: 0 auto;
     width: 1000px;
 }
-.gnav > li {/*親階層のみ幅を25%にする*/
+.gnav > li {
     width: 25%;
 }
-/*全てのリスト・リンク共通*/
+
 .gnav li {
     list-style: none;
     position: relative;
