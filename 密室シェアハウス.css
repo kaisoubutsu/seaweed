@@ -64,7 +64,7 @@ h2:after {
   height: 6px;
   content: '';
   border-radius: 3px;
-  background-image: -webkit-gradient(linear, right top, left top,from(#f0ffff), to(#0000ff));
-  background-image: -webkit-linear-gradient(right, #f0ffff 0%, #0000ff 100%);
-  background-image: linear-gradient(to left, #f0ffff 0%, #0000ff 100%);
+  background-image: -webkit-gradient(linear, right top, left top,from(#000080), to(#e0ffff));
+  background-image: -webkit-linear-gradient(right, #000080 0%, #e0ffff 100%);
+  background-image: linear-gradient(to left, #000080 0%, #e0ffff 100%);
 }
