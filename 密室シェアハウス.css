@@ -64,28 +64,7 @@ h2:after {
   height: 6px;
   content: '';
   border-radius: 3px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#98fb98), to(#00fa9a));
-  background-image: -webkit-linear-gradient(right, #98fb98 0%, #00fa9a 100%);
-  background-image: linear-gradient(to left, #98fb98 0%, #00fa9a 100%);
+  background-image: -webkit-gradient(linear, right top, left top,from(#f0ffff), to(#0000ff));
+  background-image: -webkit-linear-gradient(right, #f0ffff 0%, #0000ff 100%);
+  background-image: linear-gradient(to left, #f0ffff 0%, #0000ff 100%);
 }
-
-
-#acMenu dt{
-display:block;
-width:200px;
-height:50px;
-line-height:50px;
-text-align:center;
-border:#666 1px solid;
-cursor:pointer;
-}
-#acMenu dd{
-background:#f2f2f2;
-width:200px;
-height:50px;
-line-height:50px;
-text-align:center;
-border:#666 1px solid;
-display:none;
-}
-
