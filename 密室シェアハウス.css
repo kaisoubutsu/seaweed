@@ -44,7 +44,7 @@ h1 {
 }
 
 h1 {
-  background: linear-gradient(to right top, rgba(156, 39, 176, .8), rgba(194, 31, 160, .8), rgba(222, 38, 143, .8), rgba(242, 58, 126, .8), rgba(255, 83, 111, .8)), url("1月.png") center/cover no-repeat fixed;
+  background: linear-gradient(to right top, #000080 0%, #0000ff 29%, #00bfff 67%, #e0ffff 100%), url("") center/cover no-repeat fixed;
   border-radius: 8px;
   color: #fff;
   font-size: 24px;
