@@ -57,7 +57,7 @@ h2 {
 }
 
 h2 {
-  background: linear-gradient(to right top, rgba(156, 39, 176, .8), rgba(194, 31, 160, .8), rgba(222, 38, 143, .8), rgba(242, 58, 126, .8), rgba(255, 83, 111, .8)), url() center/cover no-repeat fixed;
+  background: linear-gradient(to right top, rgba(156, 39, 176, .8), rgba(194, 31, 160, .8), rgba(222, 38, 143, .8), rgba(242, 58, 126, .8), rgba(255, 83, 111, .8)), url("simple17_white_skyblue4.jpg") center/cover no-repeat fixed;
   border-radius: 8px;
   color: #fff;
   font-size: 24px;
