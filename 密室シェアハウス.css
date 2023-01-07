@@ -76,152 +76,132 @@ h2:after {
 
 
 
-/*====================================================================
-.s_08 .accordion_one
-====================================================================*/
 
-.s_08 .accordion_area {
-  max-width: 1024px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-.s_08 .accordion_area .accordion_one._flex {
-  width: 33.333%;
-}
-.s_08 .accordion_one .accordion_header {
-  background-color: #db0f2f;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  font-size: 26px;
-  font-weight: bold;
-  padding: 20px 11% 20px 7%;
-  text-align: left;
-  position: relative;
-  z-index: +1;
-  cursor: pointer;
-  transition-duration: 0.2s;
-}
-.s_08 .accordion_one .accordion_header_one {
-  background-color: #db0f2f;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  font-size: 26px;
-  font-weight: bold;
-  padding: 20px 7%;
-  text-align: left;
-  position: relative;
-  z-index: +1;
-  cursor: pointer;
-}
-.s_08 .accordion_one:nth-of-type(1) .accordion_inner .accordion_header_one {
-  background-color: #f52d4c;
-}
-.s_08 .accordion_one:nth-of-type(2) .accordion_header {
-  background-color: #ff9a05;
-}
-.s_08 .accordion_one:nth-of-type(2) .accordion_inner .accordion_header_one {
-  background-color: #ffb64a;
-}
-.s_08 .accordion_one:nth-of-type(3) .accordion_header {
-  background-color: #1c85d8;
-}
-.s_08 .accordion_one:nth-of-type(3) .accordion_inner .accordion_header_one {
-  background-color: #4cacf9;
-}
-.s_08 .accordion_one .accordion_header:hover {
-  opacity: .8;
-}
-.s_08 .accordion_one .accordion_header .i_box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  right: 5%;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #fff;
-  margin-top: -20px;
-  box-sizing: border-box;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  transform-origin: center center;
-  transition-duration: 0.2s;
-}
-.s_08 .accordion_one .accordion_header .i_box .one_i {
-  display: block;
-  width: 18px;
-  height: 18px;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  transform-origin: center center;
-  transition-duration: 0.2s;
-  position: relative;
-}
-.s_08 .accordion_one .accordion_header.open .i_box {
-  -webkit-transform: rotate(-360deg);
-  transform: rotate(-360deg);
-}
-.s_08 .accordion_one .accordion_header .i_box .one_i:before, .s_08 .accordion_one .accordion_header .i_box .one_i:after {
-  display: flex;
-  content: '';
-  background-color: #fff;
-  border-radius: 10px;
-  width: 18px;
-  height: 4px;
-  position: absolute;
-  top: 7px;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  transform-origin: center center;
-}
-.s_08 .accordion_one .accordion_header .i_box .one_i:before {
-  width: 4px;
-  height: 18px;
-  top: 0;
-  left: 7px;
-}
-.s_08 .accordion_one .accordion_header.open .i_box .one_i:before {
-  content: none;
-}
-.s_08 .accordion_one .accordion_header.open .i_box .one_i:after {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-.s_08 .accordion_one .accordion_inner {
-  display: none;
-  padding: 0;
-  box-sizing: border-box;
-}
-.s_08 .accordion_one .accordion_inner .box_one {
-  height: 300px;
-}
-.s_08 .accordion_one .accordion_inner p.txt_a_ac {
+
+* {
   margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-@media screen and (max-width: 1024px) {
-  .s_08 .accordion_one .accordion_header {
-    font-size: 18px;
-  }
-  .s_08 .accordion_one .accordion_header_one {
-    font-size: 18px;
-  }
-  .s_08 .accordion_one .accordion_header .i_box {
-    width: 30px;
-    height: 30px;
-    margin-top: -15px;
-  }
+
+body {
+  background: #2d2c41;
+  font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
 }
-@media screen and (max-width: 767px) {
-  .s_08 .accordion_one .accordion_header {
-    font-size: 16px;
-    text-align: left;
-    padding: 15px 60px 15px 15px;
-  }
-  .s_08 .accordion_one .accordion_header_one {
-    font-size: 16px;
-  }
+
+ul {
+  list-style-type: none;
 }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+/** =======================
+ * Contenedor Principal
+ ===========================*/
+h1 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
+ }
+
+h1 a {
+  color: #c12c42;
+  font-size: 16px;
+ }
+
+ .accordion {
+  width: 100%;
+  max-width: 360px;
+  margin: 30px auto 20px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+ }
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 42px;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+  border-bottom: 0;
+}
+
+.accordion li i {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link {
+  color: #b63b4d;
+}
+
+.accordion li.open i {
+  color: #b63b4d;
+}
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.accordion li.default .submenu {display: block;}
+/**
+ * Submenu
+ -----------------------------*/
+ .submenu {
+  display: none;
+  background: #444359;
+  font-size: 14px;
+ }
+
+ .submenu li {
+  border-bottom: 1px solid #4b4a5e;
+ }
+
+ .submenu a {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+ }
+
+ .submenu a:hover {
+  background: #b63b4d;
+  color: #FFF;
+ }
+
