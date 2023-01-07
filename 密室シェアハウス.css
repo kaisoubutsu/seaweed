@@ -43,10 +43,6 @@ h1 {
   height:auto;
 }
 
-.toumei{
-  background-color: rgba(0, 0, 255, 0.219);
-}
-
 h1 span {
   display: block;
   padding: 1rem 2rem;
@@ -86,7 +82,6 @@ h2:after {
 }
 
 body {
-  background: #2d2c41;
   font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
 }
 
@@ -102,19 +97,6 @@ a {
 /** =======================
  * Contenedor Principal
  ===========================*/
-h1 {
-  color: #FFF;
-  font-size: 24px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 80px;
- }
-
-h1 a {
-  color: #c12c42;
-  font-size: 16px;
- }
-
  .accordion {
   width: 100%;
   max-width: 360px;
