@@ -43,13 +43,8 @@ h1 {
   height:auto;
 }
 
-h1 {
-  background: linear-gradient(to right top, rgba(0,0,255,0.219)), center/cover no-repeat fixed;
-  border-radius: 8px;
-  color: #fff;
-  font-size: 24px;
-  line-height: 34px;
-  padding: 27px 24px;
+.toumei{
+  background-color: rgba(0, 0, 255, 0.219);
 }
 
 h1 span {
