@@ -76,15 +76,15 @@ h2:after {
 .menu {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 50px;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .menu > li {
-    float: left;
-    width: 20%;
-    height: auto;
+    float: center;
+    width: 25%;
+    height: 50px;
     line-height: 50px;
     background: rgb(29, 33, 19);
 }
