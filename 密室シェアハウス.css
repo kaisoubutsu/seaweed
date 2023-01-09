@@ -91,12 +91,12 @@ h2:after {
 
 .menu > li a {
     display: block;
-　　text-align: center;
     color: #fff;
 }
 
 .menu > li a:hover {
     color: #999;
+　　text-align: center;
 }
 
 ul.menu__second-level {
