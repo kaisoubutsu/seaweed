@@ -76,7 +76,7 @@ h2:after {
 .menu {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 30px;
     max-width: 1280px;
     margin:0;
 }
@@ -84,7 +84,7 @@ h2:after {
 .menu > li {
     float: left;
     width: 20%;
-    height: auto;
+    height: 30px;
     line-height: auto;
     background: rgb(29, 33, 19);
 }
