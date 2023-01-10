@@ -82,7 +82,7 @@ h2:after {
 }
 
 .menu > li {
-    float: left;
+    float: right;
     width: 20%;
     height: 40px;
     line-height: 40px;
