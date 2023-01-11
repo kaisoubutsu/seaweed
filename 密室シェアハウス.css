@@ -250,15 +250,10 @@ li.menu__single:hover ul.menu__second-level {
 }
 /*リストが増えたらULごとに追加してください*/
 #cp_menu_bar1:checked ~ #link1 li,
-#cp_menu_bar2:checked ~ #link2 li {
+#cp_menu_bar2:checked ~ #link2 li,
+#cp_menu_bar3:checked ~ #link3 li,
+#cp_menu_bar4:checked ~ #link4 li,
+#cp_menu_bar5:checked ~ #link5 li{
 	max-height: 46px;
 	opacity: 1;
-}
-#cp_menu_bar3:checked ~ #link3 li{
-	max-height:46px;
-	opacity:1;
-}
-#cp_menu_bar4:checked ~ #link4 li{
-	max-height:46px;
-	opacity:1;
 }
