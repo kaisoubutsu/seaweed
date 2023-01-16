@@ -32,10 +32,9 @@ body{
  
 @media (max-width: 768px){
   .background{
-   background-image: url("");
+   background-image: url("55762789_p0_master1200.png");
    background-size: cover;
    background-position: center;
-   min-height:80vh;
   }
 }
 }
