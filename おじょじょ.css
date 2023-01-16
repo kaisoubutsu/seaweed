@@ -26,8 +26,22 @@ p{
 
 
 body{
-	background-image:url("79197627_p0_master1200.png");
-	background-size:cover;
+.background{
+ background-image: url("79197627_p0_master1200.png");
+ background-size: cover;
+ 
+@media (max-width: 768px){
+  .background{
+   background-image: url("");
+   background-size: cover;
+   background-position: center;
+   min-height:80vh;
+  }
+}
+}
+	
+	
+	
 }
 
 
