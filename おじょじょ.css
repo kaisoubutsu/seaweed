@@ -26,7 +26,13 @@ p{
 
 
 
-
+body{
+	background-image:url("");
+	max-width:100%;
+	height:auto;
+	background-size:cover;
+	background-repeat:repeat;
+}
 
 	
 
