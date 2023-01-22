@@ -28,13 +28,19 @@ p{
 
 body{
 	background-image:url("56586185_p0_master1200.png");
-	max-width:100%;
-	height:auto;
 	background-size:cover;
-	background-repeat:repeat;
 }
 
-	
+
+.for-pc{display:block;}
+.for-sp{display:none;}
+
+@media only screen and (max-width:767px){
+	.for-pc{display:none;}
+	.for-sp{display:block;}
+}
+
+
 
 
 
