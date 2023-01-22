@@ -25,6 +25,9 @@ p{
 }
 
 
+
+
+body{
 .pc { display: block !important; }
 .sp { display: none !important; }
  
@@ -32,6 +35,7 @@ p{
 	img { max-width: 100%; }
     	.pc { display: none !important; }
     	.sp { display: block !important; }
+}
 }
 	
 	
