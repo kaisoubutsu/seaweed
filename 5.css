@@ -86,12 +86,12 @@ h2:after {
 .border-radius p {
   position: absolute;/*絶対配置*/
   color: black;/*文字は白に*/
-  top: -30;
-  left: 30;
+  top: -25;
+  left: -5;
   }
 
 .border-radius img {
-  width: 50%;
+  width: 80%;
   }
 
 
