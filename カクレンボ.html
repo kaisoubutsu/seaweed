@@ -14,13 +14,11 @@ href="密室シェアハウス.css">
 </head>
 	
 <div class="for-pc">
-	<details><summary><strong>トップページ</strong></summary>
-	<ul>
-		<li><a href="https://kaisoubutsu.github.io/seaweed/">トップページ</a></li>
-	</ul>
-	</details>
+	<ul class="menu">
+    		<li class="menu__single">
+        		<a href="https://kaisoubutsu.github.io/seaweed/">トップページ</a>
+		</li>
     
-	
 		<li class="menu__single">
         		<a tabindex="-1" class="init-bottom">TRPG</a>
         		<ul class="menu__second-level">
@@ -103,11 +101,12 @@ href="密室シェアハウス.css">
 	
 	
 <div class="for-sp">
-	<details><summary><strong>トップページ</strong></summary>
-	<ul>
+	<div class="cp_menu">
+	<label for="cp_menu_bar1">トップページ</label>
+	<input type="radio" name="radio" id="cp_menu_bar1" class="accordion" />
+	<ul id="link1">
 		<li><a href="https://kaisoubutsu.github.io/seaweed/">トップページ</a></li>
 	</ul>
-	</details>
 	
 	<label for="cp_menu_bar2">TRPG</label>
 	<input type="radio" name="radio" id="cp_menu_bar2" class="accordion" />
