@@ -257,3 +257,16 @@ li.menu__single:hover ul.menu__second-level {
 	max-height: 46px;
 	opacity: 1;
 }
+
+
+
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+
+/*②*/
+#details-1 summary::-webkit-details-marker {
+  display: none;
+}
