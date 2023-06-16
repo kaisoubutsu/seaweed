@@ -260,13 +260,7 @@ li.menu__single:hover ul.menu__second-level {
 
 
 
-
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-
-/*②*/
-#details-1 summary::-webkit-details-marker {
+/*リスト頭の▲消してる*/
+details-1 summary::-webkit-details-marker {
   display: none;
 }
