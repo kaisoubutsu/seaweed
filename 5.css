@@ -86,12 +86,13 @@ h2:after {
 .border-radius p {
   position: absolute;/*絶対配置*/
   color: black;/*文字は白に*/
-  top: -25;
-  left: -5;
+  top: -20;
+  left: -15;
   }
 
 .border-radius img {
   width: 80%;
+　position:top center;
   }
 
 
@@ -107,26 +108,4 @@ details summary::-webkit-details-marker {
 /*①*/
 #details-1 {
 
-}
-/*②*/
-#details-2 summary::-webkit-details-marker {
-  display: none;
-}
-/*③*/
-#details-3 summary::-webkit-details-marker {
-  display: none;
-}
-
-#details-3 summary:before {
-  content: '■ ';
-}
-/*④*/
-#details-4 {
-background-color:#DDFFFF;
-width:400px;
-}
-/*⑤*/
-#details-5 summary{
-background-color:#FFFF99;
-width:450px;
 }
