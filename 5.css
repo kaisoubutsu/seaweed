@@ -81,31 +81,16 @@ h2:after {
 
 .border-radius {/*親div*/
   position: relative;/*相対配置*/
-  }
+}
 
 .border-radius p {
   position: absolute;/*絶対配置*/
   color: black;/*文字は白に*/
   top: -20;
   left: -15;
-  }
-
-.border-radius img {
-  width: 80%;
-　position:top center;
-  }
-
-
-
-
-details summary::-webkit-details-marker {
-  display: none;
 }
 
-
-
-
-/*①*/
-#details-1 {
-
+.border-radius img {
+  width: 100%;
+　position:top center;
 }
