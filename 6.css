@@ -73,15 +73,15 @@ h2:after {
 
 <!--トピック欄-->
 dl{
-  background:#dbffff;
-  padding:100px;
-  width:auto;
+  background:#eee;
+  padding:50px;
+  width:700px;
 }
 
 dt{
   color:black;
   font-weight:bold;
-  padding:0 100px 0 0;
+  padding:0 50px 0 0;
   width:120px;
   float:left;
   margin-bottom:5px;
@@ -89,7 +89,7 @@ dt{
 
 dd{
   color:#333;
-  margin-bottom:10px;
+  margin-bottom:5px;
 }
 
 dl::after {
