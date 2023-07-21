@@ -70,6 +70,39 @@ h2:after {
 
 
 
+dl{
+  background:#dbffff;
+  padding:10px;
+  width:550px;
+}
+
+dt{
+  color:navy;
+  font-weight:bold;
+  padding:0 10px 0 0;
+  width:120px;
+  float:left;
+  margin-bottom:7px;
+}
+
+dd{
+  color:#333;
+  margin-bottom:7px;
+}
+
+dl::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.scroll {
+  width: 100px;
+  height: 50px;
+  overflow: auto;
+  border: blue 5px solid;
+}
 
 
 
