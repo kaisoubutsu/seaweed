@@ -74,22 +74,22 @@ h2:after {
 <!--トピック欄-->
 dl{
   background:#dbffff;
-  padding:10px;
-  width:550px;
+  padding:100px;
+  width:auto;
 }
 
 dt{
   color:navy;
   font-weight:bold;
-  padding:0 10px 0 0;
+  padding:0 100px 0 0;
   width:120px;
   float:left;
-  margin-bottom:7px;
+  margin-bottom:10px;
 }
 
 dd{
   color:#333;
-  margin-bottom:7px;
+  margin-bottom:10px;
 }
 
 dl::after {
@@ -98,7 +98,7 @@ dl::after {
     clear: both;
 }
 
-
+<!--スクロールバー-->
 .scroll {
   width: 100px;
   height: 50px;
@@ -108,7 +108,7 @@ dl::after {
 
 
 
-<!--ボックス見出し-->
+<!--ボックス見出し
 .box1 {
   width: 200px;
   height: 300px;
@@ -135,3 +135,4 @@ dl::after {
   width: 90%;
 　position:top center;
 }
+-->
