@@ -68,6 +68,32 @@ document.write("<link rel='stylesheet' type='text/css' href=", month, ".css>");
 	
 <h2>各シナリオの素材置き場</h2>
 <h3>【TRPG】</h3>
+
+var users={
+	"カクレンボ":{
+		"name":"カクレンボ",
+		"title":"プレイ日：2021/8/23",
+		"avatar":"simple17_white_skyblue4.jpg"
+	}
+}
+
+var column=4;
+var totalModules=12;
+
+.container
+	.at-section
+		.at-section__title TRPG・マダミス
+
+.at-grid(data-column=column)
+	each user in users
+		.at column
+			.at user
+				.at user__avatar:img(src=user,avatar)
+				.at user__name=user.name
+				.at user__title=user.title
+
+	
+
 <p>・<a href="https://kaisoubutsu.github.io/seaweed/%E3%82%AB%E3%82%AF%E3%83%AC%E3%83%B3%E3%83%9C.html">カクレンボ</a>&ensp;(プレイ日：2021年8月23日)</br>
 ・<a href="https://kaisoubutsu.github.io/seaweed/%E7%B7%8B%E8%89%B2%E3%81%AE%E6%85%9F%E5%93%AD.html">緋色の慟哭</a>&ensp;(プレイ日：2021年9月11日)</br>
 ・<a href="https://kaisoubutsu.github.io/seaweed/%E5%AF%86%E5%AE%A4%E3%82%B7%E3%82%A7%E3%82%A2%E3%83%8F%E3%82%A6%E3%82%B9.html">密室シェアハウス</a>&ensp;(プレイ日：2022年2月26日)</br>
