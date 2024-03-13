@@ -47,10 +47,6 @@ h1 {
 
 
   
-
-
-
-
 h2 {
   position: relative;
   padding: 1rem .5rem;
@@ -64,10 +60,12 @@ h2:after {
   height: 6px;
   content: '';
   border-radius: 3px;
-  background-image: -webkit-gradient(linear, right top, left top,from(#ffc0cb), to(#ff69b4));
-  background-image: -webkit-linear-gradient(right, #ffc0cb 0%, #ff69b4 100%);
-  background-image: linear-gradient(to left, #ffc0cb 0%, #ff69b4 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(#d8ffb2), to(#32cd32));
+  background-image: -webkit-linear-gradient(right, #d8ffb2 0%, #32cd32 100%);
+  background-image: linear-gradient(to left, #d8ffb2 0%, #32cd32 100%);
 }
+
+
 
 
 
