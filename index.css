@@ -79,6 +79,7 @@ grid-row-gap: 15px;
 }
 
 .parent div{
+	width:250px;
 	height:300px;
 }
 
