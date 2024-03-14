@@ -44,6 +44,12 @@ body{
 
 
 
+img{
+	.resizeimage { width: 75%; }
+	.resizeimage img { width: 100%; }
+}
+
+
 
 h1 {
   padding: 1rem 2rem;
