@@ -81,10 +81,10 @@ h2:after {
 
 
 #child1 {
-      background-color: lightblue;
+      background-color: white;
     }
     #child2 {
-      background-color: lightgreen;
+      background-color: white;
     }
 
     @media (min-width: 600px) {
@@ -127,15 +127,12 @@ h2:after {
   margin: 0;
   min-width: 120px;
   font-size: 16px;
-  color: #999;
+  color: #000;
   padding: 0 20px 0 0;
 }
 .news-list .item .title{
   margin: 0;
   width: 100%;
-}
-.news-list .item a:hover .title{
-  color: #00F;
 }
 
 @media screen and (max-width: 767px){
