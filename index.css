@@ -44,13 +44,6 @@ body{
 
 
 
-.resizeimage img{
-	height:auto; 
-	max-width: 100%;
-	position:center;
-}
-
-
 
 h1 {
   padding: 1rem 2rem;
