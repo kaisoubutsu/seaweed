@@ -44,9 +44,10 @@ body{
 
 
 
-img{
-	.resizeimage { height:auto; }
-	.resizeimage img { max-width: 100%; }
+.resizeimage img{
+	height:auto; 
+	max-width: 100%;
+	position:center;
 }
 
 
