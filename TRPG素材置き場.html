@@ -166,6 +166,21 @@ href="TRPG素材置き場.css">
 </div>
 
 
+
+var column = 3; // Max 9
+var totalModules = 9;
+
+
+  .at-grid(data-column=column)
+    each user in users
+      .at-column
+        .at-user
+          .at-user__avatar: img(src=user.avatar)
+          .at-user__name=user.name
+          .at-user__title=user.title
+          
+	
+
 </body>
 </html>
 </div>	
