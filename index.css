@@ -45,8 +45,8 @@ body{
 
 
 img{
-	.resizeimage { width: 75%; }
-	.resizeimage img { width: 100%; }
+	.resizeimage { height:auto; }
+	.resizeimage img { max-width: 100%; }
 }
 
 
