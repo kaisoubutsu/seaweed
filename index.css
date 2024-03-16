@@ -207,7 +207,7 @@ button.btn {
 
 a.btn-gradient {
   font-weight: normal;
-
+  border-radius: 100vh;
   color: #fff;
   border-radius: 0;
   background-image: -webkit-gradient(
