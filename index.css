@@ -189,7 +189,7 @@ button.btn {
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  padding: 5px;
+  padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -205,11 +205,15 @@ button.btn {
   border-radius: 0.5rem;
 }
 
+a.btn-gradient {
+  border-radius: 100vh;
+}
+
 
 a.btn-gradient {
   font-weight: normal;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 0;
   background-image: -webkit-gradient(
     linear,
     left top,
