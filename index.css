@@ -49,9 +49,9 @@ h1 {
   padding: 1rem 2rem;
   color: #fff;
   border-radius: 10px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#006400), to(#d8ffb2));
-  background-image: -webkit-linear-gradient(left, #006400 0%, #d8ffb2 100%);
-  background-image: linear-gradient(to right, #006400 0%, #d8ffb2 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#008000), to(#98fb98));
+  background-image: -webkit-linear-gradient(left, #008000 0%, #98fb98 100%);
+  background-image: linear-gradient(to right, #008000 0%, #98fb98 100%);
 }
 
 
