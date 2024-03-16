@@ -183,7 +183,7 @@ html {
 .btn,
 a.btn,
 button.btn {
-　margin-bottom: 10px;
+　margin-bottom: 50px;
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.5;
@@ -204,11 +204,6 @@ button.btn {
   color: #212529;
   border-radius: 0.5rem;
 }
-
-a.btn-gradient {
-  border-radius: 100vh;
-}
-
 
 a.btn-gradient {
   font-weight: normal;
