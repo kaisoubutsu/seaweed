@@ -170,8 +170,8 @@ body{
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+  -webkit-box-sizing: 500px;
+  box-sizing: 500px;
 }
 
 html {
@@ -183,7 +183,7 @@ html {
 .btn,
 a.btn,
 button.btn {
-　margin-bottom: 4rem;
+　margin:50px;
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.5;
