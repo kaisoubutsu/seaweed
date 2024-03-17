@@ -393,27 +393,6 @@ li.menu__single:hover ul.menu__second-level {
   font-size: 0.875rem;
   line-height: 2.375rem;
 }
-.at-social {
-  margin: 0 0 -18px;
-  opacity: 0;
-  transition: margin 0.2s ease, opacity 0.2s ease;
-}
-.at-social__item {
-  display: inline-block;
-  margin: 0 10px;
-}
-.at-social__item a {
-  display: block;
-}
-.at-social__item svg {
-  fill: #515F65;
-  display: block;
-  height: 18px;
-  transition: fill 0.2s ease;
-}
-.at-social__item svg:hover {
-  fill: #788D96;
-}
 
 body {
   background: #FFF;
@@ -430,4 +409,23 @@ body {
   box-sizing: border-box;
   transform-origin: top center;
   transform: scale(0.8);
+}
+
+
+
+.at-column{
+  width: 300px;
+  height: 300px;
+  background-color: #007FFF;
+  margin: 0 auto;
+}
+.at-column a{
+  text-align: center;
+  line-height: 300px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+.at-column a:hover{
+  text-decoration: none;
 }
