@@ -369,8 +369,8 @@ li.menu__single:hover ul.menu__second-level {
   text-align: center;
 }
 .at-user__avatar {
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
   border-radius: 0%;
   margin: 0 auto 20px;
   overflow: hidden;
