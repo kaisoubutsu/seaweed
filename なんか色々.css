@@ -424,3 +424,28 @@ body {
 .at-column a:hover{
   text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+.CardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px 4%;
+}
+
+// 少ないときは真ん中寄せ
+.CenteredCardList {
+  display: grid;
+  // template-columns と column-gap を合計して100%になるようにする
+  grid-template-columns: repeat(auto-fit, 22%);
+  row-gap: 24px;
+  column-gap: 4%;
+  justify-content: center;
+  margin: 40px 0;
+}
