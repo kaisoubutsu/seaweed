@@ -20,7 +20,7 @@ span{
 
 
 body{
-	background-image:"Untitled.png";
+	background-image:url("Untitled.png");
 	background-size:cover;
 }
 
