@@ -376,9 +376,10 @@ li.menu__single:hover ul.menu__second-level {
   overflow: hidden;
 }
 .at-user__avatar img {
-  display: block;
+  display: inlune-block;
   width: 100%;
   max-width: 100%;
+　position:center;
 }
 .at-user__name {
   color: #313435;
