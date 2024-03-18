@@ -255,7 +255,7 @@ li.menu__single:hover ul.menu__second-level {
   font-family: "Roboto", sans-serif;
   font-size: 3.5rem;
   font-weight: 100;
-  line-height: 2.625rem;
+  line-height: 1rem;
   text-align: center;
 }
 .at-grid {
@@ -372,7 +372,7 @@ li.menu__single:hover ul.menu__second-level {
   overflow: hidden;
 }
 .at-user__avatar img {
-  display: block;
+  display: inline-block;
   width: 100%;
   max-width: 100%;
 }
@@ -381,13 +381,13 @@ li.menu__single:hover ul.menu__second-level {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 4rem;
+  line-height: 2.5rem;
 }
 .at-user__title {
   color: #6F808A;
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
-  line-height: 3.75rem;
+  line-height: 2rem;
 }
 
 body {
