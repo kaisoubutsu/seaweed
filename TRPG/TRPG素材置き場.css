@@ -371,13 +371,13 @@ li.menu__single:hover ul.menu__second-level {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 1.5rem;
+  line-height: 3.5rem;
 }
 .at-user__title {
   color: #6F808A;
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
-  line-height: 1rem;
+  line-height: 3.25rem;
 }
 
 body {
