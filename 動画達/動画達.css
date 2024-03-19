@@ -395,6 +395,7 @@ li.menu__single:hover ul.menu__second-level {
 　position:center;
 }
 .at-user__name {
+　display: inline-block;
   color: #313435;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
@@ -402,6 +403,7 @@ li.menu__single:hover ul.menu__second-level {
   line-height: 3.5rem;
 }
 .at-user__title {
+　display: inline-block;
   color: #6F808A;
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
@@ -423,18 +425,4 @@ body {
   box-sizing: border-box;
   transform-origin: top center;
   transform: scale(0.8);
-}
-
-
-
-
-.at-column a{
-  text-align: center;
-  line-height: 300px;
-  color: #ffffff;
-  text-decoration: none;
-  display: block;
-}
-.at-column a:hover{
-  text-decoration: none;
 }
