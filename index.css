@@ -13,11 +13,6 @@ h2{
 	transform:translateX(-50%);
 }
 
-h3{
-	font-size:20px;
-	color:#000000;
-}
-
 
 p{
 	font-size:18px;
@@ -79,7 +74,7 @@ h2:after {
 
 
 
-
+<--! トピックとボタンを左右に分ける用-->
 #child1 {
       background-color: white;
     }
@@ -105,7 +100,7 @@ h2:after {
 
 
 
-
+<--! トピックを並べる用-->
 .news-list{
   list-style: none outside;
   margin: 0;
@@ -165,13 +160,13 @@ body{
 
 
 
-
+<--! 画面右のボタン群の設定とか-->
 /*まずはお決まりのボックスサイズ算出をborer-boxに */
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: 500px;
-  box-sizing: 500px;
+  -webkit-box-sizing: 800px;
+  box-sizing: 800px;
 }
 
 html {
