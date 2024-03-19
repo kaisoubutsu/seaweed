@@ -4,6 +4,7 @@ h1{
 	text-align:center;
 }
 
+
 p{
 	font-size:18px;
 	color:#000000;
@@ -382,6 +383,7 @@ li.menu__single:hover ul.menu__second-level {
   text-align: center;
 }
 .at-user__avatar {
+　position:center;
   width: 300px;
   height: 300px;
   border-radius: 0%;
