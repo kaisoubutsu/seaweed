@@ -264,15 +264,7 @@ li.menu__single:hover ul.menu__second-level {
 
 
 
-.at-section__title {
-  margin: 0 0 70px;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 2.625rem;
-  text-align: center;
-}
+
 .at-grid {
   display: flex;
   flex-direction: row;
@@ -354,10 +346,7 @@ li.menu__single:hover ul.menu__second-level {
   transform: scale(1.05);
   transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
 }
-.at-column:hover .at-social {
-  margin: 16px 0 0;
-  opacity: 1;
-}
+
 @media (max-width: 800px) {
   .at-column {
     width: 50% !important;
@@ -383,8 +372,8 @@ li.menu__single:hover ul.menu__second-level {
   text-align: center;
 }
 .at-user__avatar {
-  width: 98px;
-  height: 98px;
+  width: 30px;
+  height: 300px;
   border-radius: 100%;
   margin: 0 auto 20px;
   overflow: hidden;
@@ -406,27 +395,6 @@ li.menu__single:hover ul.menu__second-level {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
   line-height: 2.375rem;
-}
-.at-social {
-  margin: 0 0 -18px;
-  opacity: 0;
-  transition: margin 0.2s ease, opacity 0.2s ease;
-}
-.at-social__item {
-  display: inline-block;
-  margin: 0 10px;
-}
-.at-social__item a {
-  display: block;
-}
-.at-social__item svg {
-  fill: #515F65;
-  display: block;
-  height: 18px;
-  transition: fill 0.2s ease;
-}
-.at-social__item svg:hover {
-  fill: #788D96;
 }
 
 body {
