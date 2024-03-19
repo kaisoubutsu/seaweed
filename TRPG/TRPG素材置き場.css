@@ -349,7 +349,7 @@ li.menu__single:hover ul.menu__second-level {
 .at-user {
 　display: inline-block;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 0;
   width: 100%;
   transform: translate(0, -50%);
