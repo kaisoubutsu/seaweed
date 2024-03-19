@@ -373,7 +373,7 @@ li.menu__single:hover ul.menu__second-level {
 }
 
 .at-user {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 0;
   width: 100%;
