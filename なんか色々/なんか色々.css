@@ -372,14 +372,14 @@ li.menu__single:hover ul.menu__second-level {
   text-align: center;
 }
 .at-user__avatar {
-  width: 30px;
+  width: 300px;
   height: 300px;
   border-radius: 100%;
-  margin: 0 auto 20px;
+  margin: 0 auto 0px;
   overflow: hidden;
 }
 .at-user__avatar img {
-  display: block;
+  display: inline-block;
   width: 100%;
   max-width: 100%;
 }
@@ -405,7 +405,7 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1250px;
   width: 100%;
   margin: 100px auto;
   padding: 0 20px;
