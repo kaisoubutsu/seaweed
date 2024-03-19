@@ -375,7 +375,7 @@ li.menu__single:hover ul.menu__second-level {
 }
 .at-user {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   width: 100%;
   transform: translate(0, -50%);
