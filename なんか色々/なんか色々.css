@@ -391,7 +391,7 @@ li.menu__single:hover ul.menu__second-level {
   display: inline-block;
   width: 100%;
   max-width: 100%;
-　margin-left: 15px;
+　margin-left: 15%;
 }
 .at-user__name {
   color: #313435;
