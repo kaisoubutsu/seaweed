@@ -57,6 +57,7 @@ h2 {
 }
 
 h2:after {
+　margin-right:5px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -165,8 +166,8 @@ body{
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: 800px;
-  box-sizing: 800px;
+  -webkit-box-sizing: 1000px;
+  box-sizing: 1000px;
 }
 
 html {
@@ -181,8 +182,11 @@ button.btn {
   font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.5;
-  position: relative;
-  display: inline-block;
+  position: absolute;
+	
+  display: block;
+　margin: auto;
+	
   padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
