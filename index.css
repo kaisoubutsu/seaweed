@@ -7,10 +7,7 @@ h1{
 h2{
 	font-size:25px;
 	color:#000000;
-	position:absolute;
-	top:0%;
-	left:50%;
-	transform:translateX(-50%);
+	position:center;
 }
 
 
@@ -57,7 +54,6 @@ h2 {
 }
 
 h2:after {
-　margin-right:5px;
   position: absolute;
   bottom: 0;
   left: 0;
