@@ -389,7 +389,7 @@ li.menu__single:hover ul.menu__second-level {
   overflow: hidden;
 }
 .at-user__avatar img {
-  display: inlune-block;
+  display: inline-block;
   width: 100%;
   max-width: 100%;
 　position:center;
@@ -416,25 +416,11 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1250px;
   width: 100%;
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 0 20px;
   box-sizing: border-box;
   transform-origin: top center;
   transform: scale(0.8);
-}
-
-
-
-
-.at-column a{
-  text-align: center;
-  line-height: 300px;
-  color: #ffffff;
-  text-decoration: none;
-  display: block;
-}
-.at-column a:hover{
-  text-decoration: none;
 }
