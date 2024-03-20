@@ -376,7 +376,7 @@ li.menu__single:hover ul.menu__second-level {
   width: 300px;
   height: 300px;
   border-radius: 0%;
-  margin: auto 20px;
+  margin: auto 50px;
   overflow: hidden;
 }
 .at-user__avatar img {
