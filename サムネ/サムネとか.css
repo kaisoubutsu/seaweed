@@ -353,10 +353,7 @@ li.menu__single:hover ul.menu__second-level {
   transform: scale(1.05);
   transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
 }
-.at-column:hover .at-social {
-  margin: 16px 0 0;
-  opacity: 1;
-}
+
 @media (max-width: 800px) {
   .at-column {
     width: 50% !important;
@@ -374,6 +371,7 @@ li.menu__single:hover ul.menu__second-level {
   }
 }
 .at-user {
+　display: inline-block;
   position: absolute;
   top: 50%;
   left: 0;
