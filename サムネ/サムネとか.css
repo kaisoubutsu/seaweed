@@ -382,6 +382,7 @@ li.menu__single:hover ul.menu__second-level {
   text-align: center;
 }
 .at-user__avatar {
+　display: inline-block;
   width: 300px;
   height: 300px;
   border-radius: 0%;
