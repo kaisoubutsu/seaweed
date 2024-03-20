@@ -22,6 +22,9 @@ span{
 body{
 	background-image:url("sakurahubuki15.png");
 	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	width:100%;
 }
 
 
