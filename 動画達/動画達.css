@@ -263,21 +263,13 @@ li.menu__single:hover ul.menu__second-level {
 
 
 
-.at-section__title {
-  margin: 0 0 70px;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 2.625rem;
-  text-align: center;
-}
+
 .at-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background: #FFF;
-  border: 1px solid #E2E9ED;
+  border: 2px solid #E2E9ED;
 }
 .at-grid[data-column="1"] .at-column {
   width: 100%;
@@ -400,14 +392,14 @@ li.menu__single:hover ul.menu__second-level {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 3.5rem;
+  line-height: 2.625rem;
 }
 .at-user__title {
 　display: inline-block;
   color: #6F808A;
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
-  line-height: 3rem;
+  line-height: 2.375rem;
 }
 
 body {
@@ -418,9 +410,9 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1250px;
   width: 100%;
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 0 20px;
   box-sizing: border-box;
   transform-origin: top center;
