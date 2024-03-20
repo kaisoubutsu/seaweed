@@ -269,7 +269,7 @@ li.menu__single:hover ul.menu__second-level {
   flex-direction: row;
   flex-wrap: wrap;
   background: #FFF;
-  border: 1px solid #E2E9ED;
+  border: 3px solid #E2E9ED;
 }
 .at-grid[data-column="1"] .at-column {
   width: 100%;
@@ -412,7 +412,7 @@ body {
 .container {
   max-width: 1250px;
   width: 100%;
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 0 20px;
   box-sizing: border-box;
   transform-origin: top center;
