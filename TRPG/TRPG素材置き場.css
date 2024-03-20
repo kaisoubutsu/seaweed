@@ -264,7 +264,7 @@ li.menu__single:hover ul.menu__second-level {
   flex-direction: row;
   flex-wrap: wrap;
   background: #FFF;
-  border: 1px solid #E2E9ED;
+  border: 2px solid #E2E9ED;
 }
 .at-grid[data-column="1"] .at-column {
   width: 100%;
@@ -376,6 +376,7 @@ li.menu__single:hover ul.menu__second-level {
 }
 .at-user__avatar img {
   display: inline-block;
+　position:center;
   width: 100%;
   max-width: 100%;
 }
