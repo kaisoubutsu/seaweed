@@ -184,7 +184,7 @@ button.btn {
   line-height: 1.5;
   position: absolute;
 	
-  display: block;
+  display: inline-block;
 　margin: auto;
 	
   padding: 1rem 4rem;
