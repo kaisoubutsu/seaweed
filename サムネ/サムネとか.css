@@ -263,21 +263,12 @@ li.menu__single:hover ul.menu__second-level {
 
 
 
-.at-section__title {
-  margin: 0 0 70px;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 2.625rem;
-  text-align: center;
-}
 .at-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background: #FFF;
-  border: 1px solid #E2E9ED;
+  border: 2px solid #E2E9ED;
 }
 .at-grid[data-column="1"] .at-column {
   width: 100%;
