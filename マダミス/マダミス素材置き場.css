@@ -263,15 +263,7 @@ li.menu__single:hover ul.menu__second-level {
 
 
 
-.at-section__title {
-  margin: 0 0 70px;
-  color: #000;
-  font-family: "Roboto", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 2.625rem;
-  text-align: center;
-}
+
 .at-grid {
   display: flex;
   flex-direction: row;
@@ -371,6 +363,7 @@ li.menu__single:hover ul.menu__second-level {
   }
 }
 .at-user {
+　display: inline-block;
   position: absolute;
   top: 50%;
   left: 0;
@@ -383,7 +376,7 @@ li.menu__single:hover ul.menu__second-level {
   width: 300px;
   height: 300px;
   border-radius: 0%;
-  margin: 0 auto 20px;
+  margin: auto 20px;
   overflow: hidden;
 }
 .at-user__avatar img {
