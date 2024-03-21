@@ -269,7 +269,7 @@ li.menu__single:hover ul.menu__second-level {
 
 
 .box {
-border: #000 1px solid; /*境界線の指定*/
+border: #000 0.5px solid; /*境界線の指定*/
 border-radius:5px;
 padding:5px;
 }
@@ -280,12 +280,14 @@ padding:0;
 
 
 .box.ok {
-border:#000 1px solid;
+border:#000 0.5px solid;
+background:#3eb370;
 border-radius:5px;
 padding:5px;
 position:right;
 }
 .box.ok p {
+color:#fff;
 margin:0;
 padding:0;
 }
