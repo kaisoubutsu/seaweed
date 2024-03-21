@@ -17,7 +17,8 @@ p{
 }
 
 
-body{
+body,
+#child1,#child2{
 	background-image:url("yuugure04.png");
 	max-width:100%;
 	height:auto;
