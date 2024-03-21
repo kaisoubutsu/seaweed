@@ -269,10 +269,9 @@ li.menu__single:hover ul.menu__second-level {
 
 
 .box {
-background:#fff; /*背景色の指定*/
 border: #000 1px solid; /*境界線の指定*/
 border-radius:5px;
-padding:10px;
+padding:5px;
 }
 .box p {
 margin:0;
