@@ -277,3 +277,14 @@ padding:5px;
 margin:0;
 padding:0;
 }
+
+
+.box.ok {
+border:#000 1px solid;
+border-radius:5px;
+padding:5px;
+}
+.box.ok p {
+margin:0;
+padding:0;
+}
