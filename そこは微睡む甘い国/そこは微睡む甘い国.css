@@ -260,3 +260,19 @@ li.menu__single:hover ul.menu__second-level {
 	max-height: 46px;
 	opacity: 1;
 }
+
+
+
+
+
+
+
+
+.box {
+background:#000; /*背景色の指定*/
+padding:10px;
+}
+.box p {
+margin:0;
+padding:0;
+}
