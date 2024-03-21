@@ -284,7 +284,7 @@ border:#000 0.5px solid;
 background:#3eb370;
 border-radius:5px;
 padding:5px;
-position:right;
+text-align:right;
 }
 .box.ok p {
 color:#fff;
