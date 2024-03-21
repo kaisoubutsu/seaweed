@@ -269,7 +269,7 @@ li.menu__single:hover ul.menu__second-level {
 
 
 .box {
-background:#000; /*背景色の指定*/
+background:#fff; /*背景色の指定*/
 padding:10px;
 }
 .box p {
