@@ -267,3 +267,22 @@ li.menu__single:hover ul.menu__second-level {
 details-1 summary::-webkit-details-marker {
   display: none;
 }
+
+
+
+
+
+
+
+
+.box {
+border: #000 0.25px solid; /*境界線の指定*/
+border-radius:5px;
+padding:5px;
+width:50%;
+position:relative;
+}
+.box p {
+margin:0;
+padding:0;
+}
