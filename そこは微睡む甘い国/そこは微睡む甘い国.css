@@ -283,6 +283,7 @@ padding:0;
 border:#000 1px solid;
 border-radius:5px;
 padding:5px;
+position:right;
 }
 .box.ok p {
 margin:0;
