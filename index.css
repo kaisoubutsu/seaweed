@@ -17,8 +17,7 @@ p{
 }
 
 
-body,
-#child1,child2 {
+body {
 	background-color:#f8fbf8;
 	max-width:100%;
 	height:auto;
@@ -74,10 +73,10 @@ h2:after {
 
 <--! トピックとボタンを左右に分ける用-->
 #child1 {
-      background-color: white;
+      background-color: #f8fbf8;
     }
     #child2 {
-      background-color: white;
+      background-color: #f8fbf8;
     }
 
     @media (min-width: 600px) {
