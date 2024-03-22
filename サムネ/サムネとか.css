@@ -384,6 +384,7 @@ li.menu__single:hover ul.menu__second-level {
 　position:center;
 }
 .at-user__name {
+　display:inline-block;
   color: #313435;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
@@ -391,6 +392,7 @@ li.menu__single:hover ul.menu__second-level {
   line-height: 2rem;
 }
 .at-user__title {
+　display:inline-block;
   color: #6F808A;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
