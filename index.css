@@ -18,7 +18,7 @@ p{
 
 
 body {
-	background-image:url("yuugure04.png")
+	background-color:#d6e9ca;
 	max-width:100%;
 	height:auto;
 	background-size:cover;
@@ -73,10 +73,10 @@ h2:after {
 
 <--! トピックとボタンを左右に分ける用-->
 #child1 {
-      background-image:url("yuugure04.png");
+      background-color:
     }
     #child2 {
-      background-
+      background-color:
     }
 
     @media (min-width: 600px) {
