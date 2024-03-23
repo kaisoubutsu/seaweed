@@ -75,7 +75,6 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: #FFF;
   border: 2px solid #E2E9ED;
 }
 .at-grid[data-column="1"] .at-column {
