@@ -4,6 +4,11 @@ h1{
 	position:relative;
 }
 
+.vertical-middle{ 
+  display: inline-block; /* インライン要素にすることで横に回り込む */
+  vertical-align: middle; /* 上下中央に寄せる */ 
+}
+
 h2{
 	font-size:25px;
 	color:#000000;
