@@ -9,12 +9,6 @@ h1{
   vertical-align: middle; /* 上下中央に寄せる */ 
 }
 
-h2{
-	font-size:25px;
-	color:#000000;
-	position:center;
-}
-
 
 p{
 	font-size:18px;
@@ -23,7 +17,7 @@ p{
 
 
 body {
-	background-image:url("yuugure04.png")
+	background-color:#fff;
 	max-width:100%;
 	height:auto;
 	background-size:cover;
@@ -37,30 +31,6 @@ body {
 @media only screen and (max-width : 767px){
   .for-pc { display:none; }
   .for-sp { display:block; }
-}
-
-
-
-
-
-
-  
-h2 {
-  position: relative;
-  padding: 1rem .5rem;
-}
-
-h2:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 6px;
-  content: '';
-  border-radius: 3px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#d8ffb2), to(#32cd32));
-  background-image: -webkit-linear-gradient(right, #d8ffb2 0%, #32cd32 100%);
-  background-image: linear-gradient(to left, #d8ffb2 0%, #32cd32 100%);
 }
 
 
@@ -94,154 +64,160 @@ h2:after {
 
 
 
-<--! トピックを並べる用-->
-.news-list{
-  list-style: none outside;
-  margin: 0;
-  padding: 0;
-}
-.news-list .item a{
+
+
+
+
+
+
+
+.at-grid {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  flex-wrap: nowrap;
-  text-decoration: none;
-  color: #333;
-  border-bottom: 1px solid #CCC;
-  padding: 15px 15px;
+  background: #FFF;
+  border: 2px solid #E2E9ED;
 }
-.news-list .item:first-child a{
-  border-top: 1px solid #CCC;
-}
-.news-list .item .date{
-  margin: 0;
-  min-width: 120px;
-  font-size: 16px;
-  color: #000;
-  padding: 0 20px 0 0;
-}
-.news-list .item .title{
-  margin: 0;
+.at-grid[data-column="1"] .at-column {
   width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  flex-basis: 100%;
 }
-
-@media screen and (max-width: 767px){
-.news-list .item a{
-  flex-wrap: wrap;
+.at-grid[data-column="2"] .at-column {
+  width: 50%;
+  max-width: 50%;
+  min-width: 50%;
+  flex-basis: 50%;
 }
-.news-list .item .date{
-  min-width: 100px;
+.at-grid[data-column="3"] .at-column {
+  width: 33.3333333333%;
+  max-width: 33.3333333333%;
+  min-width: 33.3333333333%;
+  flex-basis: 33.3333333333%;
 }
-.news-list .item .title{
-  margin-top: 10px;
+.at-grid[data-column="4"] .at-column {
+  width: 25%;
+  max-width: 25%;
+  min-width: 25%;
+  flex-basis: 25%;
 }
+.at-grid[data-column="5"] .at-column {
+  width: 20%;
+  max-width: 20%;
+  min-width: 20%;
+  flex-basis: 20%;
 }
-
-/* 装飾 */
- 
-*{
-  box-sizing: border-box;
+.at-grid[data-column="6"] .at-column {
+  width: 16.6666666667%;
+  max-width: 16.6666666667%;
+  min-width: 16.6666666667%;
+  flex-basis: 16.6666666667%;
 }
-a{
-  text-decoration: none;
+.at-grid[data-column="7"] .at-column {
+  width: 14.2857142857%;
+  max-width: 14.2857142857%;
+  min-width: 14.2857142857%;
+  flex-basis: 14.2857142857%;
 }
-body{
-  margin: 20px;
+.at-grid[data-column="8"] .at-column {
+  width: 12.5%;
+  max-width: 12.5%;
+  min-width: 12.5%;
+  flex-basis: 12.5%;
 }
-
-
-
-
-
-
-
-<--! 画面右のボタン群の設定とか-->
-/*まずはお決まりのボックスサイズ算出をborer-boxに */
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: 1000px;
-  box-sizing: 1000px;
+.at-grid[data-column="9"] .at-column {
+  width: 11.1111111111%;
+  max-width: 11.1111111111%;
+  min-width: 11.1111111111%;
+  flex-basis: 11.1111111111%;
 }
-
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;/*rem算出をしやすくするために*/
-}
-
-.btn,
-a.btn,
-button.btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.5;
+.at-column {
+  z-index: 0;
   position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0 0 0 1px #E2E9ED;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
+}
+.at-column:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.at-column:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
 }
 
-a.btn-gradient {
-　margin-bottom：20px;
-  font-weight: normal;
-  color: #fff;
-  border-radius: 0;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(40%, #ff3cac),
-    to(#562b7c)
-  );
-  background-image: -webkit-linear-gradient(left, #ff3cac 40%, #562b7c 100%);
-  background-image: linear-gradient(90deg, #ff3cac 40%, #562b7c 100%);
+@media (max-width: 800px) {
+  .at-column {
+    width: 50% !important;
+    max-width: 50% !important;
+    min-width: 50% !important;
+    flex-basis: 50% !important;
+  }
 }
-
-a.btn-gradient:after {
+@media (max-width: 600px) {
+  .at-column {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+}
+.at-user {
+　display: inline-block;
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 0;
   width: 100%;
-  height: 100%;
-  content: "";
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#ff3cac),
-    color-stop(#562b7c),
-    to(#2b86c5)
-  );
-
-  background-image: -webkit-linear-gradient(left, #ff3cac, #562b7c, #2b86c5);
-
-  background-image: linear-gradient(90deg, #ff3cac, #562b7c, #2b86c5);
+  transform: translate(0, -50%);
+  text-align: center;
+}
+.at-user__avatar {
+　display: inline-block;
+  width: 300px;
+  height: 300px;
+  border-radius: 0%;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+.at-user__avatar img {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+}
+.at-user__name {
+  color: #313435;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.625rem;
+}
+.at-user__title {
+  color: #6F808A;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  line-height: 2.375rem;
 }
 
-a.btn-gradient span {
-  position: relative;
-  z-index: 1;
+body {
+  background: #FFF;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-a.btn-gradient:hover {
-  color: #fff;
-}
-
-a.btn-gradient:hover:after {
-  opacity: 0;
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  transform-origin: top center;
+  transform: scale(0.8);
 }
