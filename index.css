@@ -4,11 +4,6 @@ h1{
 	position:relative;
 }
 
-.vertical-middle{ 
-  display: inline-block; /* インライン要素にすることで横に回り込む */
-  vertical-align: middle; /* 上下中央に寄せる */ 
-}
-
 
 p{
 	font-size:18px;
@@ -41,10 +36,14 @@ body {
 <--! トピックとボタンを左右に分ける用-->
 #child1 {
       background-color:white;
-　　　width:35%
+　　　left:35%
     }
     #child2 {
       background-image:url("shiroyuragihaikei-illust1.jpg");
+　　　max-width:100%;
+　　　height:auto;
+　　　background-size:cover;
+　　　background-repeat:repeat;
     }
 
     @media (min-width: 600px) {
