@@ -40,10 +40,11 @@ body {
 
 <--! トピックとボタンを左右に分ける用-->
 #child1 {
-      background-color:
+      background-color:white;
+　　　width:35%
     }
     #child2 {
-      background-color:
+      background-color:white;
     }
 
     @media (min-width: 600px) {
