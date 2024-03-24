@@ -149,19 +149,6 @@ body {
   transform: translate(0, -50%);
   text-align: center;
 }
-.at-user__avatar {
-  width: 50px;
-  height: 50px;
-  border-radius: 0%;
-  margin: 0 auto 5px;
-  overflow: hidden;
-}
-.at-user__avatar img {
-  display: inline-block;
-  width: 100%;
-  max-width: 100%;
-　position:center;
-}
 .at-user__name {
 　display: inline-block;
   color: #313435;
@@ -169,6 +156,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2.625rem;
+　vertical-align: middle;
 }
 
 
@@ -180,9 +168,9 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
-  margin: 50% auto;
+  margin: 25% auto;
   padding: 0 20px;
   box-sizing: border-box;
   transform-origin: top center;
