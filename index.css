@@ -168,9 +168,9 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   width: 100%;
-  margin: 25% auto;
+  margin: 10% auto;
   padding: 0 20px;
   box-sizing: border-box;
   transform-origin: top center;
