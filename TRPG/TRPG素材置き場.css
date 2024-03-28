@@ -422,7 +422,7 @@ body {
 
 
 .box {
-border: #000 0.5px solid; /*境界線の指定*/
+border: #000 1px solid; /*境界線の指定*/
 border-radius:5px;
 padding:5px;
 width:100%;
@@ -431,7 +431,4 @@ position:relative;
 .box p {
 margin:0;
 padding:0;
-}
-.img src {
-img src-size:auto 50%;
 }
