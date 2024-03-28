@@ -157,10 +157,10 @@ a.btn-gradient:hover:after {
 
 <!-- スマホのメニューバーの設定 -->
 .box {
-border: #000 0.25px solid; /*境界線の指定*/
+border: #000 0.5px solid; /*境界線の指定*/
 border-radius:5px;
 padding:5px;
-width:50%;
+width:100%;
 position:relative;
 }
 .box p {
