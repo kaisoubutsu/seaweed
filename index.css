@@ -121,8 +121,10 @@ padding:0;
   }
   #child1 {
     flex-grow: 0.35;
+　　background-color:#000;
   }
   #child2 {
     flex-grow: 0.65;
+　　 background-color:#fff;
   }
 }
