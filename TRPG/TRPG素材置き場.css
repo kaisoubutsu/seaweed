@@ -431,5 +431,8 @@ position:relative;
 .box p {
 margin:0;
 padding:0;
-text-align:right;
+text-align:center;
+}
+.box img src {
+text-align:left;
 }
