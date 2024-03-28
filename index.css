@@ -145,3 +145,27 @@ a.btn-gradient:hover {
 a.btn-gradient:hover:after {
   opacity: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- スマホのメニューバーの設定 -->
+.box {
+border: #000 0.25px solid; /*境界線の指定*/
+border-radius:5px;
+padding:5px;
+width:50%;
+position:relative;
+}
+.box p {
+margin:0;
+padding:0;
+}
