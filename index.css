@@ -69,6 +69,7 @@ grid-column-gap: 10px;
 grid-row-gap: 10px;
 border:#000 2px solid;
 border-radius:5px;
+font-size:500px;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
