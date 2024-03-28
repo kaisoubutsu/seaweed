@@ -11,8 +11,15 @@ p{
 }
 
 
-body {
+body.for-pc {
 	background-image:url("905564.jpg");
+	max-width:100%;
+	height:auto;
+	background-size:cover;
+}
+
+body.for-sp {
+	background-image:url("");
 	max-width:100%;
 	height:auto;
 	background-size:cover;
