@@ -90,14 +90,13 @@ button.btn {
   text-decoration: none;
   letter-spacing: 0.1em;
   color: #212529;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 a.btn-gradient {
   font-weight: normal;
-
   color: #fff;
-  border-radius: 0;
+  border-radius: 1rem;
   background-image: -webkit-gradient(
     linear,
     left top,
