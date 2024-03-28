@@ -36,28 +36,12 @@ body {
 
 
 h1 {
-  position: relative;
-  padding: 1rem .5rem;
-}
-
-h1:before,
-h1:after {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  content: '';
-  background-image: -webkit-gradient(linear, right top, left top, from(#d6e9ca), to(#47885e));
-  background-image: -webkit-linear-gradient(right, #d6e9ca 0%, #47885e 100%);
-  background-image: linear-gradient(to left, #d6e9ca 0%, #47885e 100%);
-}
-
-h1:before {
-  top: 0;
-}
-
-h1:after {
-  bottom: 0;
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#47885e), to(#e3efd1));
+  background-image: -webkit-linear-gradient(left, #47885e 0%, #e3efd1 100%);
+  background-image: linear-gradient(to right, #47885e 0%, #e3efd1 100%);
 }
 
 
