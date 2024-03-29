@@ -12,7 +12,7 @@ p{
 
 
 body.for-pc {
-	background-image:url("905564.jpg");
+	background-color:#000;
 	max-width:100%;
 	height:auto;
 	background-size:cover;
@@ -216,7 +216,7 @@ padding:0;
   width: 50px;
   height: 50px;
   border-radius: 0%;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
   overflow: hidden;
 }
 .at-user__avatar img {
@@ -228,15 +228,10 @@ padding:0;
   color: #313435;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 250;
   line-height: 2.625rem;
 }
-.at-user__title {
-  color: #6F808A;
-  font-family: "Roboto", sans-serif;
-  font-size: 0.875rem;
-  line-height: 2.375rem;
-}
+
 
 body {
   background: #FFF;
@@ -247,7 +242,7 @@ body {
 
 .container {
   max-width: 600px;
-  width: 100%;
+  width: 50%;
   margin: 50px auto;
   padding: 0 20px;
   box-sizing: border-box;
