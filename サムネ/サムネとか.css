@@ -364,7 +364,7 @@ li.menu__single:hover ul.menu__second-level {
 }
 .at-user {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 0;
   width: 100%;
   transform: translate(0, -50%);
@@ -390,14 +390,14 @@ li.menu__single:hover ul.menu__second-level {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 3rem;
+  line-height: 4rem;
 }
 .at-user__title {
 　display:inline-block;
   color: #6F808A;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  line-height: 2.75rem;
+  line-height: 3.75rem;
 }
 
 body {
