@@ -9,10 +9,7 @@ h1{
 p{
 	font-size:18px;
 	color:#000000;
-	display: flex;
-    	justify-content: flex-end;
-    	align-items: flex-end;
-	flex-direction:column;
+	text-align:right;
 }
 
 
