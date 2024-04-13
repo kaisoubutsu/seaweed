@@ -75,13 +75,13 @@ h1 {
 
 
 .box {
-border: #000 2px solid; /*境界線の指定*/
+border: #000 3px solid; /*境界線の指定*/
 border-radius:5px;
 padding:5px;
-width:100%;
-position:relative;
+width:50%;
+position:right;
 }
 .box p {
 margin:0;
-padding:0;
+padding:10;
 }
