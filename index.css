@@ -16,7 +16,7 @@ p{
 body {
 	width:100%;
 	height:100vh;
-	background:linear-gradient(45deg,#e0ffff,#fff0f5,#d6e9ca);
+	background:linear-gradient(45deg,#e0ffff,#e6e6fa,#d6e9ca);
 	background-size:200% 200%;
 	animation:bggradient 15s ease infinite;
 }
