@@ -363,6 +363,7 @@ li.menu__single:hover ul.menu__second-level {
   }
 }
 .at-user {
+　display:inline-block;
   position: absolute;
   top: 60%;
   left: 0;
