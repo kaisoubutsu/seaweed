@@ -12,6 +12,10 @@ p{
 	text-align:center;
 }
 
+.center{
+	 margin: 0 auto;
+}
+
 
 body {
 	width:100%;
