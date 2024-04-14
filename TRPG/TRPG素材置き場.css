@@ -428,7 +428,12 @@ padding:5px;
 width:100%;
 position:relative;
 }
-.box p {
+.box p1 {
+margin:0;
+padding:0;
+text-align:left;
+}
+.box p2{
 margin:0;
 padding:0;
 text-align:center;
