@@ -428,6 +428,7 @@ padding:5px;
 width:100%;
 position:relative;
 }
+
 .box p1 {
 margin:0;
 padding:0;
@@ -436,5 +437,10 @@ text-align:left;
 .box p2{
 margin:0;
 padding:0;
-text-align:center;
+text-align:right;
+}
+.box p3{
+margin:0;
+padding:0;
+text-align:right;
 }
