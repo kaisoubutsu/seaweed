@@ -364,7 +364,7 @@ li.menu__single:hover ul.menu__second-level {
 }
 .at-user {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   width: 100%;
   transform: translate(0, -50%);
@@ -380,7 +380,7 @@ li.menu__single:hover ul.menu__second-level {
 }
 .at-user__avatar img {
   display: inline-block;
-  width: 100%;
+  width: 80%;
   max-width: 100%;
 　position:center;
 }
