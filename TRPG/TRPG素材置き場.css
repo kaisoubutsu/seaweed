@@ -437,10 +437,29 @@ text-align:left;
 .box p2{
 margin:0;
 padding:0;
-text-align:right;
+text-align:center;
 }
 .box p3{
 margin:0;
 padding:0;
-text-align:right;
+text-align:center;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  #parent {
+    display: flex;
+  }
+  #child1 {
+    flex-grow: 0.3;
+  }
+  #child2 {
+    flex-grow: 0.7;
+  }
 }
