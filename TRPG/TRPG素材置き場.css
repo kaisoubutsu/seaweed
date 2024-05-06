@@ -5,15 +5,16 @@ h1{
 	background-image:url("antique-gara25.png");
 }
 
+
 p{
 	font-size:18px;
 	color:#000000;
 }
 
-
 .p1{
 	line-height:15px;
 }
+
 
 span{
 	color:#fff;
@@ -28,19 +29,6 @@ body{
 	background-color:#fff;
 	background-size:cover;
 }
-
-
-.for-pc{display:block;}
-.for-sp{display:none;}
-
-@media only screen and (max-width:1200px){
-	.for-pc{display:none;}
-	.for-sp{display:block;}
-}
-
-
-
-
 
 
 h1 {
@@ -67,6 +55,13 @@ h1:before {
 h1:after {
   bottom: 0;
 }
+
+
+
+.for-pc{display:block;}
+.for-sp{display:none;}
+
+
 
 
 
@@ -249,21 +244,7 @@ li.menu__single:hover ul.menu__second-level {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- pcのグリッド表示部分-->
 .at-grid {
   display: flex;
   flex-direction: row;
@@ -421,6 +402,32 @@ body {
 
 
 
+@media only screen and (max-width:1080px){
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+	.for-pc{display:none;}
+	.for-sp{display:block;}
+}
+
+#parent {
+    display: flex;
+  }
+  #child1 {
+    flex-grow: 0.3;
+  }
+  #child2 {
+    flex-grow: 0.7;
+　　text-align:center;
+  }
+
 
 
 
@@ -447,24 +454,4 @@ text-align:center;
 margin:0;
 padding:0;
 text-align:center;
-}
-
-
-
-
-
-
-
-
-@media (max-width: 1000px) {
-  #parent {
-    display: flex;
-  }
-  #child1 {
-    flex-grow: 0.3;
-  }
-  #child2 {
-    flex-grow: 0.7;
-　　text-align:center;
-  }
 }
