@@ -58,15 +58,11 @@ h1:after {
 
 
 
+
+
+
 .for-pc{display:block;}
 .for-sp{display:none;}
-
-
-
-
-
-
-
 
 
 .menu {
@@ -443,7 +439,7 @@ position:relative;
 .box p1 {
 margin:0;
 padding:0;
-text-align:left;
+text-align:center;
 }
 .box p2{
 margin:0;
