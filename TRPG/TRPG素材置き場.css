@@ -29,7 +29,7 @@ body{
 .for-pc{display:block;}
 .for-sp{display:none;}
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:1200px){
 	.for-pc{display:none;}
 	.for-sp{display:block;}
 }
