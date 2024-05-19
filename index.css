@@ -84,7 +84,7 @@ ul li, ol li {
   border-bottom: solid 2px #dadada;/*下に灰色線*/
   background: whitesmoke;
   margin-bottom: 10px;/*下のバーとの余白*/
-  line-height: 1.5;
+  line-height: 2.0;
   padding: 0.5em;
   list-style-type: none!important;/*ポチ消す*/
   font-weight: bold;
