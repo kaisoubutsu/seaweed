@@ -576,41 +576,20 @@ body {
 	.for-sp{display:block;}
 }
 
-#parent {
-    display: flex;
-  }
-  #child1 {
-    flex-grow: 0.3;
-  }
-  #child2 {
-    flex-grow: 0.7;
-　　text-align:center;
-  }
-
-
-
-
-
-.box {
-border: #000 1px solid; /*境界線の指定*/
-border-radius:5px;
-padding:5px;
-width:100%;
-position:relative;
+<!-- リストについて -->
+ul {
+  padding: 0;
 }
 
-.box p1 {
-margin:0;
-padding:0;
-text-align:center;
-}
-.box p2{
-margin:0;
-padding:0;
-text-align:center;
-}
-.box p3{
-margin:0;
-padding:0;
-text-align:center;
+ul li, ol li {
+  color: #000;
+  border-left: solid 8px #0067c0;/*左側の線*/
+  border-bottom: solid 2px #dadada;/*下に灰色線*/
+  background: whitesmoke;
+  background-weight:90%;
+  margin-bottom: 10px;/*下のバーとの余白*/
+  line-height: 2.0;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+  font-weight: bold;
 }
