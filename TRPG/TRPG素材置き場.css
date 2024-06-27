@@ -71,6 +71,7 @@ h1:after {
     height: 40px;
     max-width: 1200px;
     margin: 0%;
+    list-style-type: none!important;/*ポチ消す*/
 }
 
 .menu > li {
