@@ -110,17 +110,20 @@ ul li, ol li {
 
 
 
-@media only screen and (min-width:600px){
+@media only screen and (max-width:600px){
 	.for-pc{display:none;}
 	.for-sp{display:block;}
 }
 
 
-body{
-	background-image:url("無料の アート, 装飾, 背景背景画像、氷 パターン クリスタル デザイン 背景写真の背景PNGとベクトル.jpg");
-	background-size:cover;
-}
 
+body {
+	width:130%;
+	height:150vh;
+	background:linear-gradient(45deg,#e0ffff,#fff0f5,#d6e9ca);
+	background-size:200% 200%;
+	animation:bggradient 15s ease infinite;
+}
 
 
 
