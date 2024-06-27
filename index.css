@@ -115,17 +115,11 @@ ul li, ol li {
 	.for-sp{display:block;}
 }
 
-#parent {
-    display: flex;
-  }
-  #child1 {
-    flex-grow: 0.3;
-  }
-  #child2 {
-    flex-grow: 0.7;
-　　text-align:center;
-  }
 
+body{
+	background-image:url("無料の アート, 装飾, 背景背景画像、氷 パターン クリスタル デザイン 背景写真の背景PNGとベクトル.jpg");
+	background-size:cover;
+}
 
 
 
