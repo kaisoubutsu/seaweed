@@ -117,14 +117,6 @@ ul li, ol li {
 
 
 
-body {
-	width:80%;
-	height:100vh;
-	background:linear-gradient(45deg,#e0ffff,#fff0f5,#d6e9ca);
-	background-size:200% 200%;
-	animation:bggradient 15s ease infinite;
-}
-
 
 
 .box {
