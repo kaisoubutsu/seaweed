@@ -31,6 +31,9 @@ body{
 }
 
 
+
+
+
 h1 {
   position: relative;
   padding: 1rem .5rem;
@@ -58,7 +61,10 @@ h1:after {
 
 
 
-
+@media only screen and (max-width:767px){
+	.for-pc{display:none;}
+	.for-sp{display:block;}
+}
 
 
 .for-pc{display:block;}
