@@ -38,12 +38,12 @@ body{
 
 .Header {
   display: grid;
-  grid-template-columns: auto 1.5fr;
+  grid-template-columns: auto 1fr;
   column-gap: 30px;
 }
 .Header__List {
   display: grid;
-  grid-auto-columns: 1fr;
+  grid-auto-columns: 2fr;
   grid-auto-flow: column;
   column-gap: 2px;
   justify-self: end;
@@ -589,47 +589,4 @@ body {
   box-sizing: border-box;
   transform-origin: top center;
   transform: scale(0.8);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:600px){
-	.for-pc{display:none;}
-	.for-sp{display:block;}
-}
-
-<!-- リストについて -->
-ul {
-  padding: 0;
-}
-
-ul li, ol li {
-  color: #000;
-  border-left: solid 8px #0067c0;/*左側の線*/
-  border-bottom: solid 2px #dadada;/*下に灰色線*/
-  background: whitesmoke;
-  background-weight:90%;
-  margin-bottom: 10px;/*下のバーとの余白*/
-  line-height: 2.0;
-  padding: 0.5em;
-  list-style-type: none!important;/*ポチ消す*/
-  font-weight: bold;
-  width:95%;
 }
