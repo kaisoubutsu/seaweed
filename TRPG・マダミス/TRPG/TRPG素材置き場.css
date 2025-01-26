@@ -50,7 +50,7 @@ body{
   width: 100%;
   max-width: 1500px;
   height: 100%;
-  background:white;
+  background:#e0ffff;
 }
 .Header__List a {
   display: grid;
