@@ -38,8 +38,8 @@ body{
 
 .Header {
   display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 20px;
+  grid-template-columns: auto 1.5fr;
+  column-gap: 30px;
 }
 .Header__List {
   display: grid;
@@ -48,7 +48,7 @@ body{
   column-gap: 2px;
   justify-self: end;
   width: 100%;
-  max-width: 800px;
+  max-width: 1150px;
   height: 100%;
 }
 .Header__List a {
