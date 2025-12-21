@@ -46,20 +46,7 @@ p{
 
 
 
-
-
-
-h1 {
-  padding: 1rem 2rem;
-  color: #fff;
-  border-radius: 10px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#316745), to(#e3efd1));
-  background-image: -webkit-linear-gradient(left, #316745 0%, #e3efd1 100%);
-  background-image: linear-gradient(to right, #316745 0%, #e3efd1 100%);
-}
-
-
-header{
+h1{
 	position:relative;
 	height:50vh;
 }
