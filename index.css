@@ -91,7 +91,7 @@ nav ul li a:hover {
     border-bottom: 1px solid #16a765;
 }
 nav ul li a {
-    display: block;
+    display: flex;
     padding: 15px;
     border-left: 1px dotted #D6D6D6;
 }
