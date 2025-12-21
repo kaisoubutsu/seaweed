@@ -92,6 +92,19 @@ nav ul li {
     </ul>
 </nav>
 
+nav {
+    border-top: 2px solid #16a765;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: #16a765;
+}
+
+nav ul li a {
+    display: block;
+}
 
 
 
