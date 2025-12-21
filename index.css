@@ -81,30 +81,64 @@ nav ul li {
     box-sizing: border-box;
     text-align: center;
 }
-
-<nav>
-    <ul class="clearfix">
-        <li><a href="https://kaisoubutsu.github.io/seaweed/%E5%8B%95%E7%94%BB%E9%81%94/%E5%8B%95%E7%94%BB%E9%81%94.html">海藻物視点の動画</a></li>
-		<li><a href="https://kaisoubutsu.github.io/seaweed/%E3%82%B5%E3%83%A0%E3%83%8D/%E3%82%B5%E3%83%A0%E3%83%8D%E3%81%A8%E3%81%8B.html">サムネ画像とか</a></li>
-        <li><a href="https://kaisoubutsu.github.io/seaweed/TRPG%E3%83%BB%E3%83%9E%E3%83%80%E3%83%9F%E3%82%B9/TRPG%E3%83%BB%E3%83%9E%E3%83%80%E3%83%9F%E3%82%B9">TRPG・マダミス</a></li>
-        <li><a href="https://kaisoubutsu.github.io/seaweed/%E3%81%AA%E3%82%93%E3%81%8B%E8%89%B2%E3%80%85/%E3%81%AA%E3%82%93%E3%81%8B%E8%89%B2%E3%80%85.html">なんか色々</a></li>
-		<li><a href="">いつか何かするかも？</a></li>
-    </ul>
-</nav>
-
 nav {
     border-top: 2px solid #16a765;
     border-bottom: 1px solid #ccc;
 }
-
 nav ul li a:hover {
     color: #fff;
     background-color: #16a765;
+    border-bottom: 1px solid #16a765;
 }
-
 nav ul li a {
     display: block;
+    padding: 15px;
+    border-left: 1px dotted #D6D6D6;
 }
+nav ul li:last-child {
+    border-right: 1px dotted #D6D6D6;
+}
+nav ul .active a {
+    color: #fff;
+    background-color: #16a765;
+    border-bottom: 1px solid #16a765;
+}
+
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.company-info {
+    float: left;
+    width: 70%;
+}
+.contact-info {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+header p span {
+    font-size: 20px;
+    font-weight: bold;
+}
+header {
+    height: 100px;
+    margin-top: 8px;
+}
+header p {
+    font-size: 12px;
+}
+.description {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
 
 
 
