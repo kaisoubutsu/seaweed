@@ -2,7 +2,6 @@ h1{
 	font-size:30px;
 	color:#000;
 	text-align:center;
-	background-image:url("img_manufacturing03_02.jpg");
 }
 
 
@@ -18,7 +17,7 @@ span{
 
 
 body{
-	background-color:#fff;
+	background-image:url("img_manufacturing03_02.jpg");
 	background-size:cover;
 }
 
@@ -119,7 +118,6 @@ h1:after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: #FFF;
   border: 2px solid #E2E9ED;
 }
 .at-grid[data-column="1"] .at-column {
