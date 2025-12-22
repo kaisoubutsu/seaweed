@@ -12,6 +12,19 @@ p{
 	text-align:center;
 }
 
+span{
+	color:#fff;
+}
+
+
+body{
+	background-color:#fff;
+	background-size:cover;
+}
+
+
+
+
 
 
 @keyframes bggradient{
@@ -46,22 +59,55 @@ p{
 
 
 
-
-
-
-
 <!-- 画面の大きさごとに表示内容を分けたい-->
 @media only screen and (max-width:1080px){
 }
-
-
-
 
 
 @media only screen and (max-width:600px){
 	.for-pc{display:none;}
 	.for-sp{display:block;}
 }
+
+
+
+
+
+
+
+
+
+
+h1 {
+  position: relative;
+  padding: 1rem .5rem;
+}
+
+h1:before,
+h1:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: '';
+  background-image: -webkit-gradient(linear, right top, left top, from(#30cfd0), to(#330867));
+  background-image: -webkit-linear-gradient(right, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(to left, #30cfd0 0%, #330867 100%);
+}
+
+h1:before {
+  top: 0;
+}
+
+h1:after {
+  bottom: 0;
+}
+
+
+
+
+
+
 
 
 
