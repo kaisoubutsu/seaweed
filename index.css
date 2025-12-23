@@ -1,7 +1,7 @@
 h1{
 	font-size:20px;
 	color:#000;
-	text-align:right;
+	text-align:right 10%;
 }
 
 
@@ -44,7 +44,7 @@ ul{
 
 body{
 	background-image:url("img_manufacturing03_02.jpg");
-	background-size:60%;
+	background-size:cover;
 }
 
 
