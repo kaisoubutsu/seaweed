@@ -48,10 +48,12 @@ document.write("<link rel='stylesheet' type='text/css' href=", month, ".css>");
 
         /* サイト名とアイコンのエリア（リンクではない） */
         .sidebar-brand {
-            padding: 25px 20px;
-            display: flex;
-            align-items: center;
-            background-color: #1a252f; /* 少し暗くして区別 */
+			padding: 30px 20px;
+    		display: flex;
+    		flex-direction: column; /* 要素を縦に並べる（これで改行されます） */
+    		align-items: center;    /* 中央揃えにする */
+    		background-color: #1a252f;
+    		text-align: center;     /* テキストも中央寄せ */
         }
 
         .brand-icon {
@@ -128,17 +130,10 @@ document.write("<link rel='stylesheet' type='text/css' href=", month, ".css>");
 
     <!-- メインコンテンツ -->
     <main class="main-content">
-        <h1>コンテンツエリア</h1>
-			<div class="content-image-container">
-        		<img src="img_manufacturing03_02.jpg" alt="コンテンツの紹介画像" class="content-img">
-        		<p class="image-caption">画像の説明テキストをここに入力できます</p>
-  			</div>
-
-
-
-		
-        <p>左側のメニューは固定されており、スクロールしても位置は変わりません。</p>
-        <p>メニュー内の「ホーム」や「サービス紹介」などをクリックすると、指定したURLへ移動します。</p>
+		<div class="content-image-container">
+        	<img src="img_manufacturing03_02.jpg" alt="コンテンツの紹介画像" class="content-img">
+        	<p class="image-caption">画像の説明テキストをここに入力できます</p>
+  		</div>
     </main>
 
 </body>
