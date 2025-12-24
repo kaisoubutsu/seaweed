@@ -54,7 +54,11 @@ document.write("<link rel='stylesheet' type='text/css' href=", month, ".css>");
     		align-items: center;    /* 中央揃えにする */
     		background-color: #1a252f;
     		text-align: center;     /* テキストも中央寄せ */
-        }
+			/* ------------------------------------------- */
+    		/* ここでアイコンとサイト名の間の隙間を調整します */
+    		gap: 15px; /* 数値を大きくすると隙間が広がります */
+    		/* ------------------------------------------- */
+		}
 
         .brand-icon {
             width: 40px;
@@ -107,9 +111,6 @@ document.write("<link rel='stylesheet' type='text/css' href=", month, ".css>");
 	
 <body>
 <div class="for-pc">
-<h1>かいそうぶつの部屋</h1>
-
-
     <!-- navタグを使用したサイドバー -->
     <nav class="sidebar">
         <!-- サイト名とアイコン（URL移動しないエリア） -->
