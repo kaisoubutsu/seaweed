@@ -26,7 +26,7 @@ ul{
 /* 画像を囲むコンテナ */
 .content-image-container {
     margin: 0px 0;
-    max-width: 90%; /* 画像が大きすぎないように制限 */
+    max-width: 1500px; /* 画像が大きすぎないように制限 */
 }
 
 /* 画像自体のスタイル */
