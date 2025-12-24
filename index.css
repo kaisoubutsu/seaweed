@@ -42,11 +42,30 @@ ul{
 }
 
 
-body{
-	background-image:url("img_manufacturing03_02.jpg");
-	background-size:cover;
+
+
+
+/* 画像を囲むコンテナ */
+.content-image-container {
+    margin: 20px 0;
+    max-width: 800px; /* 画像が大きすぎないように制限 */
 }
 
+/* 画像自体のスタイル */
+.content-img {
+    width: 100%;       /* コンテナの幅いっぱいに広げる */
+    height: auto;      /* 比率を維持 */
+    border-radius: 8px; /* 角を丸くする（2025年のトレンド） */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* 軽い影をつけて浮かせる */
+}
+
+/* 画像下のキャプション */
+.image-caption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 8px;
+    text-align: center;
+}
 
 
 
