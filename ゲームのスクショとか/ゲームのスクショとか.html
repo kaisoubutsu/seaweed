@@ -100,6 +100,7 @@ href="ゲームのスクショとか.css">
 
 		        /* リスト全体のスタイル */
         .list-container {
+			max-width:1200px;
             display: flex;
             flex-direction: column;
             gap: 10px; /* リスト間の隙間 */
@@ -122,11 +123,15 @@ href="ゲームのスクショとか.css">
             height: 100%;
         }
 
-        .image-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* 画像を枠に合わせてトリミング */
-            display: block;
+
+ 		.image-box img {
+            width: 100%;         /* 横幅を2割の枠に合わせる */
+            height: 100%;        /* 高さを枠に合わせる */
+            /* 
+               object-fit: contain;  => 画像全体を収める（余白が出る場合あり）
+               object-fit: cover;    => 枠いっぱいに表示（上下左右が少し切れる場合あり）
+            */
+            object-fit: cover; 
         }
 
         /* テキストエリア（8割） */
@@ -139,6 +144,15 @@ href="ゲームのスクショとか.css">
             padding: 10px;
             box-sizing: border-box;
         }
+
+		/* リンクをブロック要素にして中身全体をクリック可能にする */
+		 .list-link {
+            display: flex;       /* 横並び */
+            text-decoration: none;
+            color: inherit;
+            height: 120px;       /* リスト1つの高さを固定 */
+        }
+	
     </style>
 </head>
 
