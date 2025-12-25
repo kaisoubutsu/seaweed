@@ -92,6 +92,53 @@ href="ゲームのスクショとか.css">
             padding: 40px;
             flex-grow: 1;
         }
+
+
+
+
+
+
+		        /* リスト全体のスタイル */
+        .list-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* リスト間の隙間 */
+            padding: 0;
+            list-style: none;
+        }
+
+        /* 各リスト項目（親ボックス） */
+        .list-item {
+            display: flex; /* 横並びにする */
+            align-items: center; /* 垂直方向の中央揃え */
+            border: 1px solid #ccc;
+            height: 100px; /* 必要に応じて高さを調整 */
+            overflow: hidden;
+        }
+
+        /* 画像エリア（2割） */
+        .image-box {
+            flex: 0 0 20%; /* 2割の幅を固定 */
+            height: 100%;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 画像を枠に合わせてトリミング */
+            display: block;
+        }
+
+        /* テキストエリア（8割） */
+        .text-box {
+            flex: 0 0 80%; /* 8割の幅を固定 */
+            display: flex;
+            justify-content: center; /* 水平方向の中央揃え */
+            align-items: center;     /* 垂直方向の中央揃え */
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 
@@ -124,13 +171,27 @@ href="ゲームのスクショとか.css">
 <!-- メインコンテンツ -->
 <main class="main-content">
 	<div class="content-image-container">
-		<div class="box">
-			<p>&emsp;<img src="2024-04-13 20-44-35_Moment.jpg">&ensp;<a href="https://drive.google.com/drive/folders/19JNIPDtep5LJPOJKf7hO0MNpYQ6Dhj-s?usp=sharing">海藻物の原神スクショ</br>更新日：??</a></p>
-		</div>
+		<ul class="list-container">
+   			 <!-- リスト項目1 -->
+   			 <li class="list-item">
+       			 <div class="image-box">
+            		<img src="2024-04-13 20-44-35_Moment.jpg" alt="サムネ">
+       			 </div>
+      			 <div class="text-box">
+           			<p><a href="https://drive.google.com/drive/folders/19JNIPDtep5LJPOJKf7hO0MNpYQ6Dhj-s?usp=sharing">海藻物の原神スクショ</br>更新日：??</a></p>
+        		</div>
+    		</li>
 
-		<div class="box">
-			<p>&emsp;<img src="">&ensp;<a href="https://drive.google.com/drive/folders/1aM__pAnPqnSKk1mW24_wCXcqY-QMvjOu?usp=sharing">プレイしたゲームのスクショや録画</br>更新日：??</a></p>
-		</div>
+    		<!-- リスト項目2 -->
+   			<li class="list-item">
+        		<div class="image-box">
+            		<img src="" alt="サムネ">
+        		</div>
+        		<div class="text-box">
+            		<p><a href="https://drive.google.com/drive/folders/1aM__pAnPqnSKk1mW24_wCXcqY-QMvjOu?usp=sharing">プレイしたゲームのスクショ・録画</br>更新日：??</a></p>
+        		</div>
+    		</li>
+		</ul>
 	</div>	
 </main>
 </div>
