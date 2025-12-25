@@ -93,6 +93,66 @@ href="動画達.css">
             padding: 40px;
             flex-grow: 1;
         }
+
+
+
+
+
+
+		       /* リスト全体のスタイル */
+        .list-container {
+			max-width:2500px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px; /* リスト間の隙間 */
+            padding: 0;
+            list-style: none;
+        }
+
+        /* 各リスト項目（親ボックス） */
+        .list-item {
+            display: flex; /* 横並びにする */
+            align-items: center; /* 垂直方向の中央揃え */
+            border: 5px solid #ccc;
+            height: 100px; /* 必要に応じて高さを調整 */
+            overflow: hidden;
+        }
+
+        /* 画像エリア（2割） */
+        .image-box {
+            flex: 0 0 20%; /* 2割の幅を固定 */
+            height: 100%;
+        }
+
+
+ 		.image-box img {
+            width: 100%;         /* 横幅を2割の枠に合わせる */
+            height: 100%;        /* 高さを枠に合わせる */
+            /* 
+               object-fit: contain;  => 画像全体を収める（余白が出る場合あり）
+               object-fit: cover;    => 枠いっぱいに表示（上下左右が少し切れる場合あり）
+            */
+            object-fit: cover; 
+        }
+
+        /* テキストエリア（8割） */
+        .text-box {
+            flex: 0 0 80%; /* 8割の幅を固定 */
+            display: flex;
+            justify-content: center; /* 水平方向の中央揃え */
+            align-items: center;     /* 垂直方向の中央揃え */
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+		/* リンクをブロック要素にして中身全体をクリック可能にする */
+		 .list-link {
+            display: flex;       /* 横並び */
+            text-decoration: none;
+            color: inherit;
+            height: 120px;       /* リスト1つの高さを固定 */
+        }
     </style>
 </head>
 
@@ -124,25 +184,57 @@ href="動画達.css">
 <!-- メインコンテンツ -->
 <main class="main-content">
 	<div class="content-image-container">
-		<div class="box">
-			<p>&emsp;<img src="【2025】再生リスト用ミニ.jpg">&ensp;<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVv7UL6fcLhw_wkRM-N5gqG6">【2025】1年のまとめ動画</a></p>
-		</div>
+		<ul class="list-container">
+   			 <!-- リスト項目1 -->
+   			 <li class="list-item">
+       			 <div class="image-box">
+            		<img src="【2025】再生リスト用.jpg" alt="サムネ">
+       			 </div>
+      			 <div class="text-box">
+           			<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVv7UL6fcLhw_wkRM-N5gqG6">【2025】1年のまとめ動画</a></p>
+        		</div>
+    		</li>
 
-		<div class="box">
-			<p>&emsp;<img src="20241223213803.png">&ensp;<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVukCKLnVVrwVJVyiEppvVyq">【2025】毎週末のお遊びタイム</a></p>
-		</div>
+    		<!-- リスト項目2 -->
+   			<li class="list-item">
+        		<div class="image-box">
+            		<img src="20241223213803.png" alt="サムネ">
+        		</div>
+        		<div class="text-box">
+            		<p><a href="20241223213803.png">&ensp;<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVukCKLnVVrwVJVyiEppvVyq">【2025】毎週末のお遊びタイム</a></p>
+        		</div>
+    		</li>
 
-		<div class="box">
-			<p>&emsp;<img src="2024・9月.png">&ensp;<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuVBNP0hRhvQqwkOJVQ8fx8">【2024】1年のまとめ動画</a></p>
-		</div>
+			<!-- リスト項目3 -->
+   			<li class="list-item">
+        		<div class="image-box">
+            		<img src="2024・9月.png" alt="サムネ">
+        		</div>
+        		<div class="text-box">
+            		<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuVBNP0hRhvQqwkOJVQ8fx8">【2024】1年のまとめ動画</a></p>
+        		</div>
+    		</li>
 
-		<div class="box">
-			<p>&emsp;<img src="2024-04-28 15-15-25_Moment(1).jpg">&ensp;<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuXzsEwyfDnrY6yp0YDJt1T">【2024】毎週末のお遊びタイム</a></p>
-		</div>
+			<!-- リスト項目4 -->
+   			<li class="list-item">
+        		<div class="image-box">
+            		<img src="2024-04-28 15-15-25_Moment(1).jpg" alt="サムネ">
+        		</div>
+        		<div class="text-box">
+            		<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuXzsEwyfDnrY6yp0YDJt1T">【2024】毎週末のお遊びタイム</a></p>
+        		</div>
+    		</li>
 
-		<div class="box">
-			<p>&emsp;<img src="2024-02-23.png">&ensp;<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuatu1gJFm8mby6-q-i60EX">2024/2/18以降の録画</a></p>
-		</div>
+			<!-- リスト項目5 -->
+   			<li class="list-item">
+        		<div class="image-box">
+            		<img src="2024-02-23.png" alt="サムネ">
+        		</div>
+        		<div class="text-box">
+            		<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuatu1gJFm8mby6-q-i60EX">2024/2/18以降の録画</a></p>
+        		</div>
+    		</li>
+		</ul>
 	</div>	
 </main>
 </div>
