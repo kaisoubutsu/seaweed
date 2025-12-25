@@ -1,22 +1,8 @@
-h1{
-	font-size:30px;
-	color:#000;
-	text-align:center;
-}
-
 p{
-	font-size:18px;
+	font-size:30px;
 	color:#000000;
 }
 
-
-.p1{
-	line-height:15px;
-}
-
-.box p{
-	image-size:10%;
-}
 
 
 .for-pc{display:block;}
@@ -33,9 +19,9 @@ p{
 
 
 .box {
-border: #000 3px solid; /*境界線の指定*/
-border-radius:5px;
-padding:100px;
+border: #000 10px solid; /*境界線の指定*/
+border-radius:10px;
+padding:20px;
 width:80%;
 position:right;
 }
@@ -43,10 +29,3 @@ position:right;
 margin:0;
 padding:0;
 }
-
-
-
-
-
- 
-  
