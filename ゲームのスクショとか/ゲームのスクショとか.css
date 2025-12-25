@@ -1,18 +1,6 @@
-h1{
-	font-size:30px;
-	color:#000;
-	text-align:center;
-	background-image:url("sakurahubuki15(1).png");
-}
-
 p{
-	font-size:18px;
+	font-size:30px;
 	color:#000000;
-}
-
-
-.p1{
-	line-height:15px;
 }
 
 
@@ -28,17 +16,15 @@ p{
 
 
 
-
-
-
 .box {
-border: #000 3px solid; /*境界線の指定*/
-border-radius:5px;
-padding:100px;
-width:80%;
-position:right;
+border: #000 10px solid; /*境界線の指定*/
+border-radius:10px;
+padding:20px;
+width:100%;
+position:relative;
 }
 .box p {
 margin:0;
 padding:0;
+text-align:center;
 }
