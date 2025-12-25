@@ -14,8 +14,8 @@ p{
 	line-height:15px;
 }
 
-img src{
-	size:10%;
+.box p{
+	image-size:10%;
 }
 
 
@@ -42,7 +42,6 @@ position:right;
 .box p {
 margin:0;
 padding:0;
-img src:10%;
 }
 
 
