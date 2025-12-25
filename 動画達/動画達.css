@@ -14,7 +14,9 @@ p{
 	line-height:15px;
 }
 
-
+img src{
+	size:10%;
+}
 
 
 .for-pc{display:block;}
