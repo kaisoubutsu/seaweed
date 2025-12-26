@@ -153,15 +153,68 @@ href="ゲームのスクショとか.css">
             color: inherit;
             height: 120px;       /* リスト1つの高さを固定 */
         }
-	
+
+
+
+
+
+
+
+
+
+
+
+        /* グリッド全体の設定 */
+        .grid-row {
+            display: grid;
+            grid-template-columns: 3fr 7fr; /* 左3割 : 右7割 */
+            gap: 20px;
+            margin-bottom: 20px;
+            border: 3px solid #ddd;
+            padding: 10px;
+            min-height: 250px; /* 全体の最低限の高さ */
+            background-color: #fafafa;
+        }
+
+        /* 左側：画像エリア（3割）の中央配置設定 */
+        .image-container {
+            display: flex;
+            justify-content: center; /* 横方向中央 */
+            align-items: center;     /* 縦方向中央 */
+            background-color: #eee;  /* 配置を確認しやすくするための背景色 */
+        }
+
+        .image-container img {
+            max-width: 100%;         /* 親要素の3割幅を超えない */
+            max-height: 100%;        /* 親要素の高さを超えない */
+            object-fit: contain;     /* 比率を保ったまま収める */
+        }
+
+        /* 右側：テキストエリア（7割）の中央配置設定 */
+        .text-container {
+            display: flex;
+            justify-content: center; /* 横方向中央 */
+            align-items: center;     /* 縦方向中央 */
+            text-align: center;      /* 文字自体のセンタリング */
+            padding: 10px;
+        }
+
+        .text-container p {
+            margin: 0;
+            line-height: 1.6;
+        }
     </style>
 </head>
 
 
 
+  
 
 
-	
+
+
+
+
 <body>
 <div class="for-pc">
 	 <!-- navタグを使用したサイドバー -->
@@ -186,27 +239,29 @@ href="ゲームのスクショとか.css">
 <!-- メインコンテンツ -->
 <main class="main-content">
 	<div class="content-image-container">
-		<ul class="list-container">
-   			 <!-- リスト項目1 -->
-   			 <li class="list-item">
-       			 <div class="image-box">
-            		<img src="2024-04-13 20-44-35_Moment.jpg" alt="サムネ">
-       			 </div>
-      			 <div class="text-box">
-           			<p><a href="https://drive.google.com/drive/folders/19JNIPDtep5LJPOJKf7hO0MNpYQ6Dhj-s?usp=sharing">海藻物の原神スクショ</br>更新日：??</a></p>
+			<!-- 1つ目のデータ -->
+    		<div class="grid-row">
+        		<div class="image-container">
+            		<!-- ★ここに画像のURLを指定 -->
+            		<img src="2024-04-13 20-44-35_Moment.jpg" alt="画像1">
         		</div>
-    		</li>
+        		<div class="text-container">
+            		<!-- ★ここにテキストの内容を指定 -->
+            		<p><a href="https://drive.google.com/drive/folders/19JNIPDtep5LJPOJKf7hO0MNpYQ6Dhj-s?usp=sharing">海藻物の原神スクショ</br>更新日：??</a></p>
+        		</div>
+    		</div>
 
-    		<!-- リスト項目2 -->
-   			<li class="list-item">
-        		<div class="image-box">
-            		<img src="" alt="サムネ">
+			<!-- 2つ目のデータ -->
+    		<div class="grid-row">
+        		<div class="image-container">
+            		<!-- ★ここに画像のURLを指定 -->
+            		<img src="" alt="縦長画像">
         		</div>
-        		<div class="text-box">
+        		<div class="text-container">
+            		<!-- ★ここにテキストの内容を指定 -->
             		<p><a href="https://drive.google.com/drive/folders/1aM__pAnPqnSKk1mW24_wCXcqY-QMvjOu?usp=sharing">プレイしたゲームのスクショ・録画</br>更新日：??</a></p>
         		</div>
-    		</li>
-		</ul>
+    		</div>
 	</div>	
 </main>
 </div>
