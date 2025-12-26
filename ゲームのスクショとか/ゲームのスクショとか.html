@@ -114,6 +114,17 @@ href="ゲームのスクショとか.css">
   			grid-template-columns: repeat(2, 1fr);
         }
 
+
+		.main-content {
+  		flex-grow: 1; /* 残りのスペースをすべて占有 */
+  		display: grid; /* グリッドを中央に寄せるための器 */
+  		justify-content: center; /* 横方向の中央配置 */
+  		align-content: start; /* 縦方向は上詰めに（必要に応じて center に変更可） */
+  		padding: 20px;
+		}
+
+	
+
         /* 左側：画像エリア（3割）の中央配置設定 */
         .image-container {
             display: flex;
