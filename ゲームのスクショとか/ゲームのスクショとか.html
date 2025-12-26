@@ -176,6 +176,14 @@ href="ゲームのスクショとか.css">
             background-color: #fafafa;
         }
 
+		.grid-container {
+  			display: grid;
+  			/* 横に2つ、等幅で並べる設定 */
+  			grid-template-columns: repeat(2, 1fr);
+  			/* グリッド同士の隙間（適宜調整） */
+  			gap: 15px;
+		}
+
         /* 左側：画像エリア（3割）の中央配置設定 */
         .image-container {
             display: flex;
