@@ -98,69 +98,6 @@ href="ゲームのスクショとか.css">
 
 
 
-		        /* リスト全体のスタイル */
-        .list-container {
-			max-width:1200px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px; /* リスト間の隙間 */
-            padding: 0;
-            list-style: none;
-        }
-
-        /* 各リスト項目（親ボックス） */
-        .list-item {
-            display: flex; /* 横並びにする */
-            align-items: center; /* 垂直方向の中央揃え */
-            border: 3px solid #ccc;
-			max-width:1200px;
-            height: 100px; /* 必要に応じて高さを調整 */
-            overflow: hidden;
-        }
-
-        /* 画像エリア（2割） */
-        .image-box {
-            flex: 0 0 20%; /* 2割の幅を固定 */
-            height: 100%;
-        }
-
-
- 		.image-box img {
-            width: 100%;         /* 横幅を2割の枠に合わせる */
-            height: 100%;        /* 高さを枠に合わせる */
-            /* 
-               object-fit: contain;  => 画像全体を収める（余白が出る場合あり）
-               object-fit: cover;    => 枠いっぱいに表示（上下左右が少し切れる場合あり）
-            */
-            object-fit: cover; 
-        }
-
-        /* テキストエリア（8割） */
-        .text-box {
-            flex: 0 0 80%; /* 8割の幅を固定 */
-            display: flex;
-            justify-content: center; /* 水平方向の中央揃え */
-            align-items: center;     /* 垂直方向の中央揃え */
-            text-align: center;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-		/* リンクをブロック要素にして中身全体をクリック可能にする */
-		 .list-link {
-            display: flex;       /* 横並び */
-            text-decoration: none;
-            color: inherit;
-            height: 120px;       /* リスト1つの高さを固定 */
-        }
-
-
-
-
-
-
-
-
 
 
 
@@ -172,7 +109,7 @@ href="ゲームのスクショとか.css">
             margin-bottom: 20px;
             border: 3px solid #ddd;
             padding: 10px;
-            min-height: 150px; /* 全体の最低限の高さ */
+            min-height: 100px; /* 全体の最低限の高さ */
             background-color: #fafafa;
         }
 
