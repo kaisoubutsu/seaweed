@@ -17,10 +17,3 @@ p{
 
 
 
-.grid-container {
-  display: grid;
-  /* 横に2つ、等幅で並べる設定 */
-  grid-template-columns: repeat(2, 1fr);
-  /* グリッド同士の隙間（適宜調整） */
-  gap: 15px;
-}
