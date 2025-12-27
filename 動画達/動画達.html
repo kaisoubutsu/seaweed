@@ -99,66 +99,61 @@ href="動画達.css">
 
 
 
-		       /* リスト全体のスタイル */
-        .list-container {
-			max-width:2500px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px; /* リスト間の隙間 */
-            padding: 0;
-            list-style: none;
+
+		 /* グリッド全体のコンテナ（1段に2列） */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 1:1で2列並べる */
+            gap: 15px; /* グリッド間の余白 */
+            padding: 10px;
         }
 
-        /* 各リスト項目（親ボックス） */
-        .list-item {
-            display: flex; /* 横並びにする */
+        /* 各グリッドアイテム（リンク全体を囲む） */
+        .grid-item-link {
+            display: grid;
+            grid-template-columns: 2fr 8fr; /* 画像20% : テキスト80% */
             align-items: center; /* 垂直方向の中央揃え */
+            text-decoration: none;
+            color: inherit;
             border: 3px solid #ccc;
-			width:900px;
-            height: 100px; /* 必要に応じて高さを調整 */
+            height: 120px; /* 必要に応じて高さを調整 */
             overflow: hidden;
         }
 
-        /* 画像エリア（2割） */
+        /* 画像エリアのコンテナ */
         .image-box {
-            flex: 0 0 20%; /* 2割の幅を固定 */
-            height: 100%;
-        }
-
-
- 		.image-box img {
-            width: 100%;         /* 横幅を2割の枠に合わせる */
-            height: 100%;        /* 高さを枠に合わせる */
-            /* 
-               object-fit: contain;  => 画像全体を収める（余白が出る場合あり）
-               object-fit: cover;    => 枠いっぱいに表示（上下左右が少し切れる場合あり）
-            */
-            object-fit: cover; 
-        }
-
-        /* テキストエリア（8割） */
-        .text-box {
-            flex: 0 0 80%; /* 8割の幅を固定 */
             display: flex;
             justify-content: center; /* 水平方向の中央揃え */
             align-items: center;     /* 垂直方向の中央揃え */
-            text-align: center;
-            padding: 10px;
-            box-sizing: border-box;
+            height: 100%;
+            padding: 5px;
         }
 
-		/* リンクをブロック要素にして中身全体をクリック可能にする */
-		 .list-link {
-            display: flex;       /* 横並び */
-            text-decoration: none;
-            color: inherit;
-            height: 120px;       /* リスト1つの高さを固定 */
+        /* 画像自体の設定 */
+        .image-box img {
+            max-width: 100%;  /* 20%の枠を超えない */
+            max-height: 100%; /* 20%の枠を超えない */
+            object-fit: contain; /* アスペクト比を維持して収める */
+        }
+
+        /* テキストエリアのコンテナ */
+        .text-box {
+            display: flex;
+            justify-content: center; /* 水平方向の中央揃え */
+            align-items: center;     /* 垂直方向の中央揃え */
+            height: 100%;
+            padding: 0 15px;
+            text-align: center;
         }
     </style>
 </head>
 
 
 
+
+
+
+	
 
 	
 <body>
@@ -185,57 +180,67 @@ href="動画達.css">
 <!-- メインコンテンツ -->
 <main class="main-content">
 	<div class="content-image-container">
-		<ul class="list-container">
-   			 <!-- リスト項目1 -->
-   			 <li class="list-item">
-       			 <div class="image-box">
-            		<img src="【2025】再生リスト用.jpg" alt="サムネ">
-       			 </div>
-      			 <div class="text-box">
-           			<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVv7UL6fcLhw_wkRM-N5gqG6">【2025】1年のまとめ動画</a></p>
-        		</div>
-    		</li>
 
-    		<!-- リスト項目2 -->
-   			<li class="list-item">
-        		<div class="image-box">
-            		<img src="20241223213803.png" alt="サムネ">
-        		</div>
-        		<div class="text-box">
-            		<p><a href="20241223213803.png">&ensp;<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVukCKLnVVrwVJVyiEppvVyq">【2025】毎週末のお遊びタイム</a></p>
-        		</div>
-    		</li>
 
-			<!-- リスト項目3 -->
-   			<li class="list-item">
-        		<div class="image-box">
-            		<img src="2024・9月.png" alt="サムネ">
-        		</div>
-        		<div class="text-box">
-            		<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuVBNP0hRhvQqwkOJVQ8fx8">【2024】1年のまとめ動画</a></p>
-        		</div>
-    		</li>
 
-			<!-- リスト項目4 -->
-   			<li class="list-item">
-        		<div class="image-box">
-            		<img src="2024-04-28 15-15-25_Moment(1).jpg" alt="サムネ">
-        		</div>
-        		<div class="text-box">
-            		<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuXzsEwyfDnrY6yp0YDJt1T">【2024】毎週末のお遊びタイム</a></p>
-        		</div>
-    		</li>
+		
+		<div class="grid-container">
+    		<!-- グリッド 1 -->
+   			 <a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVv7UL6fcLhw_wkRM-N5gqG6" class="grid-item-link">
+        			<div class="image-box">
+            			<img src="【2025】再生リスト用.jpg" alt="サンプル画像1">
+        			</div>
+        			<div class="text-box">
+            			<p>【2025】1年のまとめ動画</p>
+        			</div>
+    		</a>
 
-			<!-- リスト項目5 -->
-   			<li class="list-item">
-        		<div class="image-box">
-            		<img src="2024-02-23.png" alt="サムネ">
-        		</div>
-        		<div class="text-box">
-            		<p><a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuatu1gJFm8mby6-q-i60EX">2024/2/18以降の録画</a></p>
-        		</div>
-    		</li>
-		</ul>
+    		<!-- グリッド 2 -->
+    			<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVukCKLnVVrwVJVyiEppvVyq" class="grid-item-link">
+        			<div class="image-box">
+            			<img src="20241223213803.png" alt="サンプル画像2">
+        			</div>
+       				<div class="text-box">
+            			<p>【2025】毎週末のお遊びタイム</p>
+        			</div>
+    			</a>
+
+			<!-- グリッド 3 -->
+    			<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuVBNP0hRhvQqwkOJVQ8fx8" class="grid-item-link">
+        			<div class="image-box">
+            			<img src="2024・9月.png" alt="サンプル画像2">
+        			</div>
+       				<div class="text-box">
+            			<p>【2024】1年のまとめ動画</p>
+        			</div>
+    			</a>
+
+			<!-- グリッド 4 -->
+    			<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuXzsEwyfDnrY6yp0YDJt1T" class="grid-item-link">
+        			<div class="image-box">
+            			<img src="2024-04-28 15-15-25_Moment(1).jpg" alt="サンプル画像2">
+        			</div>
+       				<div class="text-box">
+            			<p>【2024】毎週末のお遊びタイム</p>
+        			</div>
+    			</a>
+
+			<!-- グリッド 5 -->
+    			<a href="https://www.youtube.com/playlist?list=PLrgVkcTPCpVuatu1gJFm8mby6-q-i60EX" class="grid-item-link">
+        			<div class="image-box">
+            			<img src="2024-02-23.png" alt="サンプル画像2">
+        			</div>
+       				<div class="text-box">
+            			<p>2024/2/18以降の録画</p>
+        			</div>
+    			</a>
+		</div>
+
+
+
+
+
+		
 	</div>	
 </main>
 </div>
