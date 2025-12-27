@@ -12,18 +12,3 @@ p{
 	.for-pc{display:none;}
 	.for-sp{display:block;}
 }
-
-
-
-
-
-
-.target-element {
-  /* linear-gradient で白(0.5 = 50%の透明度)を重ねる */
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-    url('sakurahubuki15.png');
-  
-  background-size: cover;
-  background-position: center;
-}
