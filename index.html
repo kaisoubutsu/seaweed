@@ -38,6 +38,63 @@ document.write("<link rel='stylesheet' type='text/css' href=", month, ".css>");
 
 
 
+	 
+
+	 /* 1. タイトル部分：アイコンとタイトルを横並びに */
+    .header-top {
+      display: flex;
+      align-items: center; /* 垂直方向の中央揃え */
+      gap: 10px;           /* アイコンと文字の間隔 */
+      padding: 10px;
+      background-color: #f8f8f8;
+    }
+    .site-icon {
+      width: 40px;         /* アイコンのサイズ */
+      height: 40px;
+    }
+    .site-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    /* 2. メニューバー */
+    .nav-bar {
+      background-color: #333;
+    }
+    .nav-bar ul {
+      display: flex;       /* メニュー項目を横並びに */
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow-x: auto;    /* 項目が多い場合に横スクロール可能にする */
+    }
+    .nav-bar li a {
+      display: block;
+      padding: 12px 20px;
+      color: white;
+      text-decoration: none;
+      white-space: nowrap; /* 改行させない */
+    }
+
+    /* 3. 画像部分：画面幅に収める */
+    .main-visual {
+      width: 100%;         /* 親要素の幅いっぱいに */
+    }
+    .main-visual img {
+      width: 100%;         /* 画像自体の幅を100%に */
+      height: auto;        /* 比率を維持 */
+      display: block;      /* 下部の余計な隙間を消す */
+    }
+
+
+
+
+
+
+
+
+	 
 
 
 	 
@@ -188,47 +245,24 @@ document.write("<link rel='stylesheet' type='text/css' href=", month, ".css>");
 
 
 <div class="sp-only">
-	<!-- navタグを使用したサイドバー -->
-    <nav class="sidebar">
-        <!-- サイト名とアイコン（URL移動しないエリア） -->
-        <div class="sidebar-header">
-            <img src="images - Copy (1).jpg" alt="Logo" class="sidebar-icon">
-            <span class="sidebar-title">かいそうぶつの部屋</span>
-        </div>
-
-        <!-- クリックでURL移動するメニュー項目 -->
-        <ul class="sidebar-menu">
-            <li><a href="https://kaisoubutsu.github.io/seaweed/">トップページ</a></li>
-			<li><a href="https://kaisoubutsu.github.io/seaweed/%E5%8B%95%E7%94%BB%E9%81%94/%E5%8B%95%E7%94%BB%E9%81%94.html">海藻物視点の動画</a></li>
-			<li><a href="https://kaisoubutsu.github.io/seaweed/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E3%81%A8%E3%81%8B/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E3%82%B9%E3%82%AF%E3%82%B7%E3%83%A7%E3%81%A8%E3%81%8B.html">ゲームのスクショとか</a></li>
-			<li><a href="/">いつか何かするかも？</a></li>
-        </ul>
-    </nav>
-
-    <!-- メインコンテンツ -->
-    <main class="main-content">
-		<div class="content-image-container">
-        	<img src="img_manufacturing03_02.jpg" alt="コンテンツの紹介画像" class="content-img">
-  		</div>
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 </body>
 </html>
